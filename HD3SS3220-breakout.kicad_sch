@@ -556,7 +556,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RNH0030A"
+			(property "Footprint" "Interface_USB:HD3SS3220IRNHR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1241,7 +1241,7 @@
 					)
 				)
 			)
-			(property "Footprint" "footprint:USB-C-SMD_MC-312D-C"
+			(property "Footprint" "Connector_USB:MC-312D"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -1832,7 +1832,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "CONN_484050003_MOL"
+			(property "Footprint" "Connector:Molex-0484050003"
 				(at 8.382 2.54 0)
 				(effects
 					(font
@@ -4934,7 +4934,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HD3SS3220IRNHR:HD3SS3220IRNHR")
+		(lib_id "Interface_USB:HD3SS3220IRNHR")
 		(at 134.62 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4958,7 +4958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RNH0030A"
+		(property "Footprint" "Interface_USB:HD3SS3220IRNHR"
 			(at 134.62 119.38 0)
 			(effects
 				(font
@@ -5420,7 +5420,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Molex-0484050003:484050003")
+		(lib_id "Connector:484050003")
 		(at 58.42 127 0)
 		(mirror y)
 		(unit 1)
@@ -5447,7 +5447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_484050003_MOL"
+		(property "Footprint" "Connector:Molex-0484050003"
 			(at 50.038 124.46 0)
 			(effects
 				(font
@@ -6188,7 +6188,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MC-312D:MC-312D")
+		(lib_id "Connector_USB:MC-312D")
 		(at 228.6 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6212,7 +6212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:USB-C-SMD_MC-312D-C"
+		(property "Footprint" "Connector_USB:MC-312D"
 			(at 228.6 73.66 0)
 			(effects
 				(font
