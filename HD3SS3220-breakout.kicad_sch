@@ -4640,6 +4640,16 @@
 		)
 		(uuid "01d86ec1-9c4e-4c80-bf81-07a69c35b419")
 	)
+	(text "1 nor 2 closed: NC - DRP\n1 closed: Low - UFP\n2 closed: High - DFP\n3 nor 4 closed: Default - 900mA\n3 closed: Medium - 1.5A\n4 closed: High - 3A"
+		(exclude_from_sim no)
+		(at 257.302 145.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2134b0da-0655-46b7-9ec6-e6dd852fb117")
+	)
 	(text "rule area for marking impedence match pairs"
 		(exclude_from_sim no)
 		(at 519.938 140.97 0)
