@@ -4640,6 +4640,16 @@
 		)
 		(uuid "01d86ec1-9c4e-4c80-bf81-07a69c35b419")
 	)
+	(text "internal pull-up"
+		(exclude_from_sim no)
+		(at 173.228 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b5dfae9-78b8-4f6d-925e-625f1552fcb1")
+	)
 	(text "1 nor 2 closed: NC - DRP\n1 closed: Low - UFP\n2 closed: High - DFP\n3 nor 4 closed: Default - 900mA\n3 closed: Medium - 1.5A\n4 closed: High - 3A"
 		(exclude_from_sim no)
 		(at 257.302 145.542 0)
@@ -4669,6 +4679,16 @@
 			)
 		)
 		(uuid "6451e931-5d26-49a6-9eb6-b3092f1da86b")
+	)
+	(text "internal pull-up"
+		(exclude_from_sim no)
+		(at 191.516 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8cd847ba-ae2a-4859-8c74-da3c2655580d")
 	)
 	(text "watch videos on high speed routing for ki cad specifically"
 		(exclude_from_sim no)
@@ -4765,12 +4785,6 @@
 		(uuid "4cd1055d-50cb-4c02-9dc2-6a2741a8d33d")
 	)
 	(junction
-		(at 213.36 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65b8ebe6-e732-4db8-9448-79579bc8c740")
-	)
-	(junction
 		(at 144.78 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4833,16 +4847,8 @@
 		(uuid "327f3cad-0f29-48b2-bee6-64d898411487")
 	)
 	(no_connect
-		(at 158.75 138.43)
-		(uuid "56912d7a-bba3-4d89-8eda-13b984720474")
-	)
-	(no_connect
 		(at 143.51 146.05)
 		(uuid "6d04b816-2647-4013-8786-eaca9d4d6b1e")
-	)
-	(no_connect
-		(at 158.75 135.89)
-		(uuid "75e157d5-0005-41a2-825e-eacc2795be80")
 	)
 	(no_connect
 		(at 269.24 101.6)
@@ -4885,6 +4891,16 @@
 			(type default)
 		)
 		(uuid "025e065c-4974-4231-8695-b97b177f65ee")
+	)
+	(wire
+		(pts
+			(xy 209.55 45.72) (xy 232.41 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a1ac7c-952b-420e-b9fb-e5d7d4d6eaf4")
 	)
 	(wire
 		(pts
@@ -5088,7 +5104,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 55.88) (xy 232.41 55.88)
+			(xy 209.55 55.88) (xy 226.06 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5228,16 +5244,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 48.26) (xy 153.67 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45e99482-43c7-4349-97f5-828c3018185d")
-	)
-	(wire
-		(pts
 			(xy 246.38 115.57) (xy 254 115.57)
 		)
 		(stroke
@@ -5318,16 +5324,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 45.72) (xy 213.36 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64b52ca0-c9f3-4f78-add4-b18fc4c6570b")
-	)
-	(wire
-		(pts
 			(xy 223.52 146.05) (xy 231.14 146.05)
 		)
 		(stroke
@@ -5355,6 +5351,16 @@
 			(type default)
 		)
 		(uuid "6649aac9-3b07-41ab-a50a-037da1ee8738")
+	)
+	(wire
+		(pts
+			(xy 158.75 135.89) (xy 162.56 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2d717d-a5be-4450-825c-0f244fe5dcb0")
 	)
 	(wire
 		(pts
@@ -5458,7 +5464,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 53.34) (xy 232.41 53.34)
+			(xy 209.55 53.34) (xy 218.44 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5515,6 +5521,16 @@
 			(type default)
 		)
 		(uuid "95fdf5ac-5543-458e-914c-b4e780696456")
+	)
+	(wire
+		(pts
+			(xy 231.14 55.88) (xy 232.41 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961ff082-27e5-4809-8340-93405fc74b65")
 	)
 	(wire
 		(pts
@@ -5648,6 +5664,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 138.43) (xy 162.56 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a84de1a3-fdcd-439a-ac4e-af9cac481538")
+	)
+	(wire
+		(pts
 			(xy 151.13 50.8) (xy 156.21 50.8)
 		)
 		(stroke
@@ -5755,6 +5781,16 @@
 			(type default)
 		)
 		(uuid "c0b8b073-c676-4512-a833-5e06736fe092")
+	)
+	(wire
+		(pts
+			(xy 223.52 53.34) (xy 232.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c16da95e-917f-4d57-84ff-09767ba31539")
 	)
 	(wire
 		(pts
@@ -5918,16 +5954,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 45.72) (xy 213.36 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de9230fe-0869-405d-8e78-f25f8e276a4e")
-	)
-	(wire
-		(pts
 			(xy 118.11 45.72) (xy 120.65 45.72)
 		)
 		(stroke
@@ -5998,16 +6024,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 48.26) (xy 156.21 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8e79e8c-1653-4d58-8927-e21ade770bd4")
-	)
-	(wire
-		(pts
 			(xy 191.77 143.51) (xy 196.85 143.51)
 		)
 		(stroke
@@ -6025,6 +6041,16 @@
 			(type default)
 		)
 		(uuid "ead78d26-6b11-4129-8fb7-0eecd5adec71")
+	)
+	(wire
+		(pts
+			(xy 137.16 48.26) (xy 156.21 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa61345-4dc6-4882-b019-38a5d4b7ab5d")
 	)
 	(wire
 		(pts
@@ -6155,6 +6181,16 @@
 			(justify left bottom)
 		)
 		(uuid "15c09402-4af5-41fd-909c-e116e71386d5")
+	)
+	(label "ENn_CC"
+		(at 162.56 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "190aea7e-9a39-4926-b8df-e57a30253b66")
 	)
 	(label "TX1-"
 		(at 275.59 78.74 0)
@@ -6336,6 +6372,16 @@
 		)
 		(uuid "57d8eb30-4f5e-4f7d-95a2-d40ba69e9ad0")
 	)
+	(label "ENn_Mux"
+		(at 232.41 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e5c8c4c-f132-4de9-9a90-5c94bdcfab70")
+	)
 	(label "RX1+"
 		(at 232.41 58.42 0)
 		(effects
@@ -6385,6 +6431,16 @@
 			(justify left bottom)
 		)
 		(uuid "676d0f2e-bed0-4044-85e5-9c78a903caef")
+	)
+	(label "ENn_Mux"
+		(at 162.56 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67d861d8-37c8-4c5e-9929-299f49e7c044")
 	)
 	(label "RX2+"
 		(at 232.41 71.12 0)
@@ -6615,6 +6671,16 @@
 			(justify left bottom)
 		)
 		(uuid "d2e03b76-e1b2-429d-a083-18025e62d7a3")
+	)
+	(label "ENn_CC"
+		(at 137.16 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3af5daa-23b3-4132-8acf-0ea5cba6fc62")
 	)
 	(label "D-"
 		(at 275.59 58.42 0)
@@ -6931,6 +6997,86 @@
 			(project ""
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 220.98 53.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1455a17f-c8e4-4074-90a8-89b273e26d97")
+		(property "Reference" "C2"
+			(at 220.9736 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 220.9736 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 220.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62052a30-20e1-4ae9-ace9-327980e771cb")
+		)
+		(pin "2"
+			(uuid "1d4da54f-dcc7-4234-8622-096c90b28429")
+		)
+		(instances
+			(project "HD3SS3220-breakout"
+				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7557,84 +7703,6 @@
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 153.67 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69518f35-7e6f-42bf-9498-ff6fd8fecb8b")
-		(property "Reference" "#PWR014"
-			(at 153.67 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.67 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 153.67 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c07baf9-9dcc-4c1f-a332-8e0a8aabb5d0")
-		)
-		(instances
-			(project "HD3SS3220-breakout"
-				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9296,6 +9364,86 @@
 			(project ""
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 228.6 55.88 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e42f2baa-1666-486b-9bd6-090042e6db0d")
+		(property "Reference" "C6"
+			(at 228.5936 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 228.5936 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 228.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "caa327c0-0c6e-4f18-9966-4d4b795ecc40")
+		)
+		(pin "2"
+			(uuid "af56852c-f9cd-430e-af7c-8fd8c06f6227")
+		)
+		(instances
+			(project "HD3SS3220-breakout"
+				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
+					(reference "C6")
 					(unit 1)
 				)
 			)
