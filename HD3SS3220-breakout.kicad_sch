@@ -7047,7 +7047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:WQFN-30_L4.5-W2.5-P0.4-BL-EP"
+		(property "Footprint" "Interface_USB:HD3SS3220IRNHR"
 			(at 186.182 93.218 0)
 			(hide yes)
 			(show_name no)
