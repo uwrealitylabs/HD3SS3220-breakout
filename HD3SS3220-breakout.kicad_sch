@@ -8954,7 +8954,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "to-be-organized:USB-C-SMD_TYPE-C-USB-19"
 			(at 257.81 71.12 0)
 			(hide yes)
 			(show_name no)
