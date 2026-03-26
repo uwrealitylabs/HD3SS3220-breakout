@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -56,8 +56,8 @@
   },
   "git": {
     "integration_disabled": false,
-    "repo_type": "",
-    "repo_username": "",
+    "repo_type": "https",
+    "repo_username": "superiorgamez07",
     "ssh_key": ""
   },
   "meta": {

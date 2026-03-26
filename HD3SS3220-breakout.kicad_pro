@@ -117,6 +117,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -230,11 +231,13 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -762,7 +765,7 @@
         "uuid": "6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP1-13,A1,J1,#PWR9,#PWR11,D1",
     "variants": []
   },
   "sheets": [
