@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260306)
+	(version 20260101)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "6d9920bc-ffe5-49c6-a5b8-424c0488cfb7")
@@ -7669,7 +7669,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 144.78 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8076,7 +8076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1720ea4d-60c5-446f-a8c1-487da2c890e2")
-		(property "Reference" "DIR_LED"
+		(property "Reference" "DIR_LED1"
 			(at 158.75 93.0274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8151,7 +8151,7 @@
 		(instances
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "DIR_LED")
+					(reference "DIR_LED1")
 					(unit 1)
 				)
 			)
@@ -9202,7 +9202,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 154.94 99.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10271,7 +10271,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1142ad6-4b5c-4fd2-9368-a4ed7e9b67b8")
-		(property "Reference" "VBUS_LED"
+		(property "Reference" "VBUS_LED1"
 			(at 143.002 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10346,7 +10346,7 @@
 		(instances
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "VBUS_LED")
+					(reference "VBUS_LED1")
 					(unit 1)
 				)
 			)
