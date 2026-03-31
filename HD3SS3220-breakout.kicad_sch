@@ -10639,6 +10639,7 @@
 		)
 		(property "Footprint" "to-be-organized:USB-C-SMD_TYPE-C-USB-19"
 			(at 68.58 171.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11414,7 +11415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW4"
 			(at 204.47 146.05 0)
 			(hide yes)
 			(show_name no)
