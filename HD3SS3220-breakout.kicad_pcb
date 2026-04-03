@@ -114,7 +114,7 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_44dcccc7_7667ddd9)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -153,13 +153,13 @@
 	(footprint "footprint:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR"
 		(layer "F.Cu")
 		(uuid "151e3b23-67ea-48b6-8378-8a2d0d21ac0a")
-		(at 153.856236 82.499873)
+		(at 206.511234 80.749816)
 		(descr "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR footprint")
 		(tags "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR footprint C14289")
 		(property "Reference" "U6"
 			(at -0.296825 -4.326314 0)
 			(layer "F.SilkS")
-			(uuid "8c5d608f-9703-4db9-a3a9-b08ddb0cdc2d")
+			(uuid "e50c8123-daca-4a1b-a9df-d14fd0d80042")
 			(effects
 				(font
 					(size 1 1)
@@ -170,7 +170,7 @@
 		(property "Value" "HT7533-1_C14289"
 			(at -0.296825 4.32606 0)
 			(layer "F.Fab")
-			(uuid "9b52185e-7b4b-4c1f-9703-ada810aabe20")
+			(uuid "69bb5875-9763-426b-baf4-6ffffea7756e")
 			(effects
 				(font
 					(size 1 1)
@@ -182,7 +182,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5b5bf83-b20e-4cd8-9501-b11a82fc5cb0")
+			(uuid "227242da-5141-4e3d-a0f5-9db91c75be53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,7 +193,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3df3a63b-bee6-488d-8af4-d226c0029571")
+			(uuid "7239a31d-2080-4bcf-9dd5-a22064c2cf8d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -432,7 +432,7 @@
 	(footprint "to-be-organized:USB-C-SMD_TYPE-C-USB-19"
 		(layer "F.Cu")
 		(uuid "2e05c5b8-21ae-4e74-9f06-f71a45b61835")
-		(at 182.024987 97.150057)
+		(at 234.679985 95.4)
 		(descr "USB-C-SMD_TYPE-C-USB-19 footprint")
 		(tags "USB-C-SMD_TYPE-C-USB-19 footprint C106817")
 		(property "Reference" "J2"
@@ -1611,7 +1611,7 @@
 	(footprint "footprint:HDR-SMD_16P-P2.54-H-M-R2-C8-W12.0-N"
 		(layer "F.Cu")
 		(uuid "58d4d715-1196-4486-8d23-2f04816f2c3d")
-		(at 132.519749 58.921812)
+		(at 185.174747 57.171755)
 		(descr "HDR-SMD_16P-P2.54-H-M-R2-C8-W12.0-N footprint")
 		(tags "HDR-SMD_16P-P2.54-H-M-R2-C8-W12.0-N footprint C5149358")
 		(property "Reference" "U9"
@@ -2146,7 +2146,7 @@
 	(footprint "Package_TO_SOT_SMD:Texas_DRT-3"
 		(layer "F.Cu")
 		(uuid "60c541b0-4dd8-4fdb-ad30-16bb7f331a52")
-		(at 137.85 84.075)
+		(at 190.504998 82.324943)
 		(descr "Texas Instrument DRT-3 1x0.8mm Pitch 0.7mm http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf")
 		(tags "DRT-3 1x0.8mm Pitch 0.7mm")
 		(property "Reference" "U8"
@@ -2408,7 +2408,7 @@
 	(footprint "Button_Switch_SMD:SW4"
 		(layer "F.Cu")
 		(uuid "7f71ddac-f32f-4ed5-b560-61dfcdf83d65")
-		(at 179.475 68.57)
+		(at 203.154998 103.249943)
 		(property "Reference" "SW2"
 			(at 0 -7.81 0)
 			(layer "F.SilkS")
@@ -2965,7 +2965,7 @@
 	(footprint "Interface_USB:HD3SS3220IRNHR"
 		(layer "F.Cu")
 		(uuid "8b3db2df-d520-494c-9269-845a2e46e968")
-		(at 173.099998 46.800002)
+		(at 225.754996 45.049945)
 		(tags "HD3SS3220IRNHR ")
 		(property "Reference" "U4"
 			(at 0 0 0)
@@ -3945,7 +3945,7 @@
 	(footprint "footprint:USB-3.0-A_U-A-39SS-Y-1"
 		(layer "F.Cu")
 		(uuid "a8ae1db6-0b44-4369-ba12-fc356abb9703")
-		(at 154 53.85)
+		(at 209.654998 48.099943)
 		(descr "USB-3.0-A_U-A-39SS-Y-1 footprint")
 		(tags "USB-3.0-A_U-A-39SS-Y-1 footprint C530639")
 		(property "Reference" "U5"
@@ -4441,7 +4441,7 @@
 	(footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "f8d5f88d-e0fc-4b4a-93ab-d2b6a5157cbb")
-		(at 164.875927 79.384911)
+		(at 217.530925 77.634854)
 		(descr "USON-10 2.5x1.0mm_ Pitch 0.5mm http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf")
 		(tags "USON-10 2.5x1.0mm Pitch 0.5mm")
 		(property "Reference" "U7"
@@ -4749,6 +4749,17 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 164.903873 38.433898)
+		(end 243.5 106.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "3c990d2a-3f1c-404e-b73c-27ccdf55b168")
 	)
 	(embedded_fonts no)
 )
