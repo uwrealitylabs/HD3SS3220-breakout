@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "UWReality_Labs") (type "KiCad") (uri "${KIPRJMOD}/UWReality_Labs.pretty") (options "") (descr ""))
+)

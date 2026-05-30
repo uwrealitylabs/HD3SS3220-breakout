@@ -803,13 +803,25 @@
         "uuid": "6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
       }
     ],
-    "used_designators": "TP12-15",
+    "used_designators": "#FLG3-4,J3,VBUS_LED2,DIR_LED2,U10-15,C7-10,C13-16,SW3,#PWR12-14,#PWR20-32,R11-15,TP12-22",
     "variants": []
   },
   "sheets": [
     [
       "6d9920bc-ffe5-49c6-a5b8-424c0488cfb7",
       "HD3SS3220-breakout"
+    ],
+    [
+      "240131c8-ceb8-4502-a822-3cb345742c54",
+      "Type-C Interface & High-Speed Mux"
+    ],
+    [
+      "d2dc19f9-3f53-4a57-9fd1-7dbcd8ffcd72",
+      "Type-A Interface"
+    ],
+    [
+      "bc49d624-172d-412a-b2b3-24e20ec130ea",
+      "Power Management, Configuration & Debug"
     ]
   ],
   "text_variables": {},
