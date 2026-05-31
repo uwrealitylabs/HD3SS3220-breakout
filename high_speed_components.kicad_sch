@@ -1579,29 +1579,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U4"
-				(at -7.874 32.258 0)
+			(property "Reference" "U1"
+				(at -25.908 29.972 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.905 1.905)
 					)
 					(justify left)
 				)
 			)
 			(property "Value" "HD3SS3220RNHR"
-				(at -7.874 29.718 0)
+				(at -25.654 -35.306 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.905 1.905)
 					)
 					(justify left)
 				)
 			)
-			(property "Footprint" "footprint:WQFN-30_L4.5-W2.5-P0.4-BL-EP"
+			(property "Footprint" "Interface_USB:HD3SS3220IRNHR"
 				(at 2.032 -34.798 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1916,150 +1916,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 25.4 -2.54 180)
-					(length 2.54)
-					(name "RX1n"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 25.4 0 180)
-					(length 2.54)
-					(name "RX1p"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 25.4 2.54 180)
-					(length 2.54)
-					(name "TX1n"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 25.4 5.08 180)
-					(length 2.54)
-					(name "TX1p"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 25.4 -15.24 180)
-					(length 2.54)
-					(name "RX2n"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 25.4 -12.7 180)
-					(length 2.54)
-					(name "RX2p"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 25.4 -10.16 180)
-					(length 2.54)
-					(name "TX2n"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 25.4 -7.62 180)
-					(length 2.54)
-					(name "TX2p"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -27.94 0 0)
 					(length 2.54)
 					(name "ADDR"
@@ -2232,6 +2088,152 @@
 						)
 					)
 					(number "31"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HD3SS3220RNHR_1_1"
+				(pin unspecified line
+					(at 25.4 -2.54 180)
+					(length 2.54)
+					(name "RX1-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 0 180)
+					(length 2.54)
+					(name "RX1+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 2.54 180)
+					(length 2.54)
+					(name "TX1-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 5.08 180)
+					(length 2.54)
+					(name "TX1+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -15.24 180)
+					(length 2.54)
+					(name "RX2+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -12.7 180)
+					(length 2.54)
+					(name "RX2+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -10.16 180)
+					(length 2.54)
+					(name "TX2-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -7.62 180)
+					(length 2.54)
+					(name "TX2+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1 1)
@@ -2725,7 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 106.68) (xy 153.67 106.68)
+			(xy 139.7 106.68) (xy 160.02 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2735,7 +2737,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 106.68) (xy 171.45 106.68)
+			(xy 165.1 106.68) (xy 171.45 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2835,7 +2837,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 93.98) (xy 171.45 93.98)
+			(xy 165.1 93.98) (xy 171.45 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2915,7 +2917,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 91.44) (xy 143.51 91.44)
+			(xy 139.7 91.44) (xy 151.13 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2965,7 +2967,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 104.14) (xy 171.45 104.14)
+			(xy 156.21 104.14) (xy 171.45 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3185,7 +3187,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 104.14) (xy 143.51 104.14)
+			(xy 139.7 104.14) (xy 151.13 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3395,7 +3397,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 91.44) (xy 171.45 91.44)
+			(xy 156.21 91.44) (xy 171.45 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3405,7 +3407,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 93.98) (xy 153.67 93.98)
+			(xy 139.7 93.98) (xy 160.02 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3472,6 +3474,16 @@
 			(type default)
 		)
 		(uuid "fad2b542-a0e9-4585-9007-e02ce58dec56")
+	)
+	(label "TX2_IC+"
+		(at 140.97 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "232a320c-cd35-4086-8a2b-fc46e63a7b09")
 	)
 	(label "TX2-"
 		(at 171.45 106.68 0)
@@ -3593,6 +3605,16 @@
 		)
 		(uuid "8de104ff-a1e5-4426-bfc3-a079e9c47b0f")
 	)
+	(label "TX1_IC+"
+		(at 140.97 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9596f55a-11f7-47af-acc0-277fbd32970b")
+	)
 	(label "RX2+"
 		(at 171.45 109.22 0)
 		(effects
@@ -3673,6 +3695,16 @@
 		)
 		(uuid "e455a3c6-2ef8-48e2-b395-9d7b39e696a2")
 	)
+	(label "TX2_IC-"
+		(at 140.97 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5cff58c-63fc-4483-884d-991c8aba45ca")
+	)
 	(label "TX1-"
 		(at 217.17 105.41 180)
 		(effects
@@ -3692,6 +3724,16 @@
 			(justify left bottom)
 		)
 		(uuid "f1d7c6ec-176b-4dac-9fcd-2f623c1b8f78")
+	)
+	(label "TX1_IC-"
+		(at 140.97 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f35febbb-cbf7-445a-bde3-802fac95f7b9")
 	)
 	(hierarchical_label "D-"
 		(shape input)
@@ -4083,7 +4125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 78.74 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4695,7 +4737,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 156.21 106.68 270)
+		(at 162.56 106.68 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4705,7 +4747,7 @@
 		(dnp no)
 		(uuid "691a9b12-7299-45f9-98a7-249f38354454")
 		(property "Reference" "C4"
-			(at 158.496 105.41 90)
+			(at 164.846 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4715,7 +4757,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 160.02 107.95 90)
+			(at 166.37 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4724,8 +4766,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 156.21 106.68 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 162.56 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4736,7 +4778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 106.68 0)
+			(at 162.56 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4747,7 +4789,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 106.68 0)
+			(at 162.56 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4961,7 +5003,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "to-be-organized:USB-C-SMD_TYPE-C-USB-19"
+		(property "Footprint" "Interface_USB:USB-C-SMD_TYPE-C-USB-19"
 			(at 234.95 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5080,7 +5122,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 146.05 104.14 270)
+		(at 153.67 104.14 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5090,7 +5132,7 @@
 		(dnp no)
 		(uuid "9abcc73f-040d-428f-a36d-660a39098fa1")
 		(property "Reference" "C3"
-			(at 148.59 102.87 90)
+			(at 156.21 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5100,7 +5142,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 150.114 105.41 90)
+			(at 157.734 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5109,8 +5151,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 146.05 104.14 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 153.67 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5121,7 +5163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 104.14 0)
+			(at 153.67 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5132,7 +5174,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 146.05 104.14 0)
+			(at 153.67 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5236,7 +5278,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 156.21 93.98 270)
+		(at 162.56 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5246,7 +5288,7 @@
 		(dnp no)
 		(uuid "b1cd26fa-0627-4324-8970-e4e55ff7f029")
 		(property "Reference" "C2"
-			(at 159.004 92.71 90)
+			(at 165.354 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5256,7 +5298,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 160.274 95.25 90)
+			(at 166.624 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5265,8 +5307,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 156.21 93.98 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 162.56 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5277,7 +5319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 93.98 0)
+			(at 162.56 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5288,7 +5330,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 93.98 0)
+			(at 162.56 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5315,7 +5357,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 146.05 91.44 270)
+		(at 153.67 91.44 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5325,7 +5367,7 @@
 		(dnp no)
 		(uuid "b68c057a-7dff-4a24-9026-91a3e233cda8")
 		(property "Reference" "C1"
-			(at 148.082 90.17 90)
+			(at 155.702 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5335,7 +5377,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 149.86 92.71 90)
+			(at 157.48 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5344,8 +5386,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 146.05 91.44 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 153.67 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5356,7 +5398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 91.44 0)
+			(at 153.67 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5367,7 +5409,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 146.05 91.44 0)
+			(at 153.67 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5423,7 +5465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5659,7 +5701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5738,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 64.77 119.38 0)
 			(hide yes)
 			(show_name no)

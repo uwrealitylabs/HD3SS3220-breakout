@@ -1839,6 +1839,17 @@
 		)
 		(uuid "4e2d86bd-dbcc-483b-859a-fcaef1bdd946")
 	)
+	(text "TPD4EUSB30 package is designed allows \ntraces to be routed straight through \nthose \"NC\"\n"
+		(exclude_from_sim no)
+		(at 221.234 94.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9716945c-09c6-4eb7-8ba2-f676c9d20a93")
+	)
 	(text "Electrostatic Discharge (ESD) and \nSurge protection diode arrays"
 		(exclude_from_sim no)
 		(at 173.736 75.438 0)
@@ -1869,21 +1880,15 @@
 		(color 0 0 0 0)
 		(uuid "fd8bf47e-f3a7-4689-be30-57692593a574")
 	)
-	(no_connect
-		(at 182.88 87.63)
-		(uuid "02d5db9b-7bfa-4a0b-90de-3cb13f71b6c9")
-	)
-	(no_connect
-		(at 182.88 102.87)
-		(uuid "382a60f2-b219-4ce1-b6ed-335c391d89da")
-	)
-	(no_connect
-		(at 208.28 102.87)
-		(uuid "c41feeb9-995f-4501-a770-9a604ac5a7e7")
-	)
-	(no_connect
-		(at 208.28 87.63)
-		(uuid "d526afa4-f947-4269-9a1e-eaa608081ec5")
+	(wire
+		(pts
+			(xy 181.61 87.63) (xy 182.88 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e26ee4-bc10-4552-b8bc-28194d59aaba")
 	)
 	(wire
 		(pts
@@ -1924,6 +1929,26 @@
 			(type default)
 		)
 		(uuid "34576bcd-5fd9-4bd5-9fd3-00460ced70f3")
+	)
+	(wire
+		(pts
+			(xy 208.28 87.63) (xy 210.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3699d055-03bd-45ee-9434-3ad31db0cbd8")
+	)
+	(wire
+		(pts
+			(xy 181.61 102.87) (xy 182.88 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3789dec2-1e6b-4e44-b72f-f9b1170b4049")
 	)
 	(wire
 		(pts
@@ -2097,6 +2122,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 102.87) (xy 210.82 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daefcdd6-38bf-4480-8cbe-b57e4cce38fe")
+	)
+	(wire
+		(pts
 			(xy 208.28 97.79) (xy 210.82 97.79)
 		)
 		(stroke
@@ -2195,6 +2230,16 @@
 		)
 		(uuid "543ab1e8-85d4-4d8d-a962-1e185238ab6d")
 	)
+	(label "SSRX+"
+		(at 210.82 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6034297f-a77e-418e-87b0-a691bc9e8e0e")
+	)
 	(label "D-"
 		(at 160.02 93.98 0)
 		(effects
@@ -2204,6 +2249,36 @@
 			(justify left bottom)
 		)
 		(uuid "850cee8d-6f5d-4fe7-8d54-1826d863918e")
+	)
+	(label "SSTX-"
+		(at 181.61 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a57f69a9-cff5-4dc5-8ee7-48788a855161")
+	)
+	(label "SSRX-"
+		(at 210.82 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd317bcd-c93c-4f7a-a02b-9e47bed8f85d")
+	)
+	(label "SSTX+"
+		(at 181.61 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf2336d3-1bb7-4475-8d1f-a9a19f493bde")
 	)
 	(label "SSRX-"
 		(at 210.82 97.79 0)
@@ -2814,7 +2889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:USB-3.0-A_U-A-39SS-Y-1"
+		(property "Footprint" "Interface_USB:USB-3.0-A_U-A-39SS-Y-1"
 			(at 77.47 107.95 0)
 			(hide yes)
 			(show_name no)
