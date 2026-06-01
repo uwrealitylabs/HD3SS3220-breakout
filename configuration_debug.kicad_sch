@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "40419672-070d-40ac-8e9e-8f4834617d82")
 	(paper "A4")
+	(title_block
+		(title "USB-3.0 Power Management and Configuration Modules")
+		(date "2026-04-16")
+		(rev "R1")
+		(company "UWaterloo Reality Labs")
+		(comment 4 "Authors: Brandon, Marcus, Dinh")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
@@ -1461,6 +1468,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Switches Configuration Notes:\n\n1 nor 2 closed: 	NC - DRP\n1 closed:			Low - UFP\n2 closed: 			High - DFP\n3 nor 4 closed: 	Default - 900mA\n3 closed: 			Medium - 1.5A\n4 closed: 			High - 3A"
+		(exclude_from_sim no)
+		(at 60.452 120.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "18ee2c4e-3379-4a44-847f-4901789b23e4")
+	)
 	(text "Configuration DIP switches"
 		(exclude_from_sim no)
 		(at 79.756 84.328 0)
@@ -1496,6 +1515,28 @@
 			)
 		)
 		(uuid "9e2e9219-e311-4c9c-abda-cb7d72e0c8aa")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 84.582 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7ba5853-d7d4-4028-8c17-0f208ffdd950")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 77.47 117.602 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca974b85-79bc-4efc-baac-b5e2c99d5073")
 	)
 	(junction
 		(at 167.64 95.25)
@@ -2082,6 +2123,39 @@
 				)
 			)
 		)
+		(property "Store Page" "https://www.lcsc.com/product-detail/C7472949.html"
+			(at 132.08 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7472949"
+			(at 132.08 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" "0.0099"
+			(at 132.08 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f878a56-6ca6-4db2-8386-c33468ccb0e7")
 		)
@@ -2139,7 +2213,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/225802.html"
+		(property "Datasheet" ""
 			(at 220.98 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2151,6 +2225,39 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 220.98 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Store Page" "https://item.szlcsc.com/225802.html"
+			(at 220.98 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C225519"
+			(at 220.98 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" "0.1535"
 			(at 220.98 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2336,6 +2443,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C3293144"
+			(at 64.77 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Store Page" "https://item.szlcsc.com/3856579.html"
+			(at 64.77 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" "0.5227"
+			(at 64.77 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "ae1c6327-1b18-4a0d-8482-b75cfa6b5d00")
 		)
@@ -2510,6 +2650,39 @@
 				)
 			)
 		)
+		(property "Store Page" "https://item.szlcsc.com/241007.html"
+			(at 49.53 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C242161"
+			(at 49.53 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" "0.0051"
+			(at 49.53 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "49e7a3fe-4c98-43db-8bf4-00ee9e55c5ce")
 		)
@@ -2634,7 +2807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 80.01 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2658,6 +2831,39 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 80.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Store Page" "https://www.lcsc.com/product-detail/C316218.html"
+			(at 80.01 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C316218"
+			(at 80.01 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" "0.0420"
+			(at 80.01 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2823,6 +3029,39 @@
 				)
 			)
 		)
+		(property "Store Page" "https://www.lcsc.com/product-detail/C4326584.html"
+			(at 80.01 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4326584"
+			(at 80.01 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" "0.0570"
+			(at 80.01 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc379046-4182-4631-a3cc-1b3e58aa5034")
 		)
@@ -2881,7 +3120,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/421845.html"
+		(property "Datasheet" ""
 			(at 151.892 112.268 0)
 			(hide yes)
 			(show_name no)
@@ -2906,6 +3145,28 @@
 		)
 		(property "LCSC" "C14289"
 			(at 155.702 109.728 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Store Page" "https://item.szlcsc.com/421845.html"
+			(at 152.4 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" "0.1202"
+			(at 152.4 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2987,6 +3248,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 167.64 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Store Page" "https://www.lcsc.com/product-detail/C7472949.html"
+			(at 167.64 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7472949"
+			(at 167.64 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" "0.0099"
 			(at 167.64 102.87 0)
 			(hide yes)
 			(show_name no)

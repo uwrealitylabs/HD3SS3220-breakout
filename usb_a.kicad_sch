@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "64462e7e-8af6-4da0-88cd-d5cefe709b85")
 	(paper "A4")
+	(title_block
+		(title "USB-3.0 Bridging Board Type-A Interface")
+		(date "2026-04-16")
+		(rev "R1")
+		(company "UWaterloo Reality Labs")
+		(comment 4 "Authors: Brandon, Marcus, Dinh")
+	)
 	(lib_symbols
 		(symbol "Connector_USB-custom:U-A-39SS-Y-1"
 			(exclude_from_sim no)
@@ -2577,6 +2584,39 @@
 				)
 			)
 		)
+		(property "Store Page" "https://www.lcsc.com/product-detail/C97502.html"
+			(at 147.32 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C97502"
+			(at 147.32 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" "0.5436"
+			(at 147.32 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "05ba7075-9931-4aa7-a872-a23bed9cab70")
 		)
@@ -2817,6 +2857,39 @@
 				)
 			)
 		)
+		(property "Store Page" "https://www.lcsc.com/product-detail/C90627.html"
+			(at 195.58 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C90627"
+			(at 195.58 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" "0.4568"
+			(at 195.58 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "f2534ced-e455-428a-b0f6-aed47512427d")
 		)
@@ -2901,7 +2974,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/550973.html"
+		(property "Datasheet" ""
 			(at 75.184 97.663 0)
 			(hide yes)
 			(show_name no)
@@ -2925,6 +2998,28 @@
 			)
 		)
 		(property "LCSC" "C530639"
+			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Store Page" "https://item.szlcsc.com/550973.html"
+			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" "0.3147"
 			(at 77.47 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3156,7 +3251,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 206.502 110.49 0)
+			(at 206.756 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

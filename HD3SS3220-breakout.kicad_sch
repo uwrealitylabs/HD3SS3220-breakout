@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "USB-3.0 Bridging Board Root")
-		(date "2025-12-14")
+		(date "2026-04-16")
+		(rev "R1")
 		(company "UWaterloo Reality Labs")
 		(comment 4 "Authors: Brandon, Marcus, Dinh")
 	)
