@@ -46,6 +46,5 @@ To ensure 5 Gbps signal integrity, the following rigid design rules were impleme
 
 ### 4. AC Coupling Capacitors
 * **Footprints:** Symmetrically placed **0402** packages.
-* **Plane Voiding:** The GND reference plane directly beneath the capacitor pads is voided by ~60% (at least 2 layers deep) to balance capacitive and inductive discontinuities.
 
 ---
