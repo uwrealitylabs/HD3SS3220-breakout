@@ -11,11 +11,10 @@ This test board utilizes the **HD3SS3220RNHR USB-C Multiplexer** to validate USB
 ![PCB Layout](Screenshots/PCB_Layout.png)
 
 **Schematics:**
-* [Schematic 1 - Overview](Screenshots/Schematic_1.png)
-* [Schematic 2 - Mux & DRP](Screenshots/Schematic_2.png)
-* [Schematic 3 - High Speed Pair](Screenshots/Schematic_3.png)
-* [Schematic 4 - Power / LDO](Screenshots/Schematic_4.png)
-* [Schematic 5 - Connectors](Screenshots/Schematic_5.png)
+![Schematic 1 - Overview](Screenshots/Schematic_1.png)
+![Schematic 2 - HD3SS3220RNHR & USB-C](Screenshots/Schematic_2.png)
+![Schematic 3 - ESD Protection & USB-C](Screenshots/Schematic_4.png)
+![Schematic 5 - Configurable Pins and LDO](Screenshots/Schematic_5.png)
 
 ---
 
