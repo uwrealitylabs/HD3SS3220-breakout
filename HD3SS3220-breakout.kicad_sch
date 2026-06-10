@@ -1420,8 +1420,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U5"
-				(at -3.1224 13.97 0)
+			(property "Reference" "J2"
+				(at -15.494 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1432,7 +1432,7 @@
 				)
 			)
 			(property "Value" "U-A-39SS-Y-1"
-				(at -3.1224 11.43 0)
+				(at -1.778 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1442,7 +1442,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "footprint:USB-3.0-A_U-A-39SS-Y-1"
+			(property "Footprint" "Interface_USB:USB-3.0-A_U-A-39SS-Y-1"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1454,7 +1454,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://item.szlcsc.com/550973.html"
+			(property "Datasheet" ""
 				(at -2.286 0.127 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1478,6 +1478,28 @@
 				)
 			)
 			(property "LCSC" "C530639"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Store Page" "https://item.szlcsc.com/550973.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Unit Price" "0.3147"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1631,24 +1653,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 16.51 1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 16.51 3.81 180)
 					(length 2.54)
 					(name "STDA_SSTX-"
@@ -1713,6 +1717,26 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(symbol "U-A-39SS-Y-1_1_1"
+				(pin passive line
+					(at 16.51 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1 1)
@@ -2401,7 +2425,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://item.szlcsc.com/176537.html"
+			(property "Datasheet" ""
 				(at -14.732 -30.988 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2426,6 +2450,28 @@
 			)
 			(property "LCSC" "C165155"
 				(at 1.016 -28.448 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Store Page" "https://item.szlcsc.com/176537.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Unit Price" "1.9468"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2469,7 +2515,9 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "HD3SS3220RNHR_1_1"
+				(pin bidirectional line
 					(at 25.4 20.32 180)
 					(length 2.54)
 					(name "CC2"
@@ -2487,7 +2535,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 22.86 180)
 					(length 2.54)
 					(name "CC1"
@@ -2505,7 +2553,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -27.94 -7.62 0)
 					(length 2.54)
 					(name "CURRENT_MODE"
@@ -2523,7 +2571,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -27.94 -2.54 0)
 					(length 2.54)
 					(name "PORT"
@@ -2541,7 +2589,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -27.94 12.7 0)
 					(length 2.54)
 					(name "VBUS_DET"
@@ -2559,7 +2607,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -27.94 -20.32 0)
 					(length 2.54)
 					(name "TXp"
@@ -2577,7 +2625,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -27.94 -22.86 0)
 					(length 2.54)
 					(name "TXn"
@@ -2595,7 +2643,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -27.94 17.78 0)
 					(length 2.54)
 					(name "VCC33"
@@ -2613,7 +2661,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -27.94 -27.94 0)
 					(length 2.54)
 					(name "RXp"
@@ -2631,7 +2679,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -27.94 -30.48 0)
 					(length 2.54)
 					(name "RXn"
@@ -2649,7 +2697,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin open_collector line
 					(at -27.94 7.62 0)
 					(length 2.54)
 					(name "DIR"
@@ -2667,7 +2715,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 25.4 12.7 180)
 					(length 2.54)
 					(name "ENn_MUX"
@@ -2685,7 +2733,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 25.4 -22.86 180)
 					(length 2.54)
 					(name "GND"
@@ -2703,189 +2751,7 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -27.94 0 0)
-					(length 2.54)
-					(name "ADDR"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 5.08 0)
-					(length 2.54)
-					(name "INT_N/OUT3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -5.08 0)
-					(length 2.54)
-					(name "VCONN_FAULT_N"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -12.7 0)
-					(length 2.54)
-					(name "SDA/OUT1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -15.24 0)
-					(length 2.54)
-					(name "SCL/OUT2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 2.54 0)
-					(length 2.54)
-					(name "ID"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 25.4 -20.32 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 10.16 0)
-					(length 2.54)
-					(name "ENn_CC"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 22.86 0)
-					(length 2.54)
-					(name "VDD5"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 25.4 -27.94 180)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(symbol "HD3SS3220RNHR_1_1"
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -2.54 180)
 					(length 2.54)
 					(name "RX1-"
@@ -2903,7 +2769,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 0 180)
 					(length 2.54)
 					(name "RX1+"
@@ -2921,7 +2787,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 2.54 180)
 					(length 2.54)
 					(name "TX1-"
@@ -2939,7 +2805,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 5.08 180)
 					(length 2.54)
 					(name "TX1+"
@@ -2957,7 +2823,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -15.24 180)
 					(length 2.54)
 					(name "RX2+"
@@ -2975,7 +2841,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -12.7 180)
 					(length 2.54)
 					(name "RX2+"
@@ -2993,7 +2859,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -10.16 180)
 					(length 2.54)
 					(name "TX2-"
@@ -3011,7 +2877,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -7.62 180)
 					(length 2.54)
 					(name "TX2+"
@@ -3022,6 +2888,186 @@
 						)
 					)
 					(number "21"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -27.94 0 0)
+					(length 2.54)
+					(name "ADDR"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -27.94 5.08 0)
+					(length 2.54)
+					(name "INT_N/OUT3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -27.94 -5.08 0)
+					(length 2.54)
+					(name "VCONN_FAULT_N"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -12.7 0)
+					(length 2.54)
+					(name "SDA/OUT1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -15.24 0)
+					(length 2.54)
+					(name "SCL/OUT2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -27.94 2.54 0)
+					(length 2.54)
+					(name "ID"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -20.32 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -27.94 10.16 0)
+					(length 2.54)
+					(name "ENn_CC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -27.94 22.86 0)
+					(length 2.54)
+					(name "VDD5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -27.94 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "31"
 						(effects
 							(font
 								(size 1 1)
@@ -3041,8 +3087,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 6.35 0)
+			(property "Reference" "U2"
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3052,7 +3098,7 @@
 				)
 			)
 			(property "Value" "TPD2EUSB30"
-				(at 7.62 -7.62 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3084,6 +3130,39 @@
 				)
 			)
 			(property "Description" "2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Store Page" "https://www.lcsc.com/product-detail/C97502.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C97502"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Unit Price" "0.5436"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3377,7 +3456,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 -10.16 90)
 					(length 5.08)
 					(name "GND"
@@ -4145,8 +4224,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U6"
-				(at 0 12.7 0)
+			(property "Reference" "U4"
+				(at -9.144 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4156,16 +4235,16 @@
 				)
 			)
 			(property "Value" "HT7533-1_C14289"
-				(at 0 10.16 0)
+				(at 5.334 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 				)
 			)
-			(property "Footprint" "footprint:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR"
+			(property "Footprint" "Interface_USB:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR"
 				(at 2.286 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4177,7 +4256,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://item.szlcsc.com/421845.html"
+			(property "Datasheet" ""
 				(at -0.508 -11.938 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4211,6 +4290,28 @@
 					)
 				)
 			)
+			(property "Store Page" "https://item.szlcsc.com/421845.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Unit Price" "0.1202"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "C14289"
 				(at 0 0 0)
 				(show_name no)
@@ -4234,7 +4335,9 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "HT7533-1_C14289_1_1"
+				(pin power_in line
 					(at -2.54 -6.35 90)
 					(length 5.08)
 					(name "GND"
@@ -4252,7 +4355,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -15.24 5.08 0)
 					(length 5.08)
 					(name "Vin"
@@ -4270,7 +4373,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 10.16 5.08 180)
 					(length 5.08)
 					(name "Vout"
@@ -6035,7 +6138,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 80.01) (xy 130.81 80.01)
+			(xy 116.84 80.01) (xy 148.59 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6145,16 +6248,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 80.01) (xy 148.59 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15dff5fe-2c79-4dc6-b314-879c273138c9")
-	)
-	(wire
-		(pts
 			(xy 149.86 133.35) (xy 157.48 133.35)
 		)
 		(stroke
@@ -6225,7 +6318,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 77.47) (xy 128.27 77.47)
+			(xy 116.84 77.47) (xy 148.59 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6322,16 +6415,6 @@
 			(type default)
 		)
 		(uuid "325b4409-622b-472d-9dac-a63072efed3b")
-	)
-	(wire
-		(pts
-			(xy 133.35 77.47) (xy 148.59 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33cdff8d-9263-4acc-8778-f4a009f1c575")
 	)
 	(wire
 		(pts
@@ -6525,7 +6608,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 54.61) (xy 218.44 54.61)
+			(xy 201.93 54.61) (xy 233.68 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6565,7 +6648,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 64.77) (xy 209.55 64.77)
+			(xy 201.93 64.77) (xy 233.68 64.77)
 		)
 		(stroke
 			(width 0)
@@ -6692,16 +6775,6 @@
 			(type default)
 		)
 		(uuid "6a917b55-a571-4ac2-971b-35e83af6c31c")
-	)
-	(wire
-		(pts
-			(xy 223.52 54.61) (xy 233.68 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b02cff1-2189-4a3b-a573-c54fad41ab52")
 	)
 	(wire
 		(pts
@@ -7095,7 +7168,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 52.07) (xy 209.55 52.07)
+			(xy 201.93 52.07) (xy 233.68 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7162,16 +7235,6 @@
 			(type default)
 		)
 		(uuid "a9ddfb7c-9b57-4b3a-a354-9a31a47be2de")
-	)
-	(wire
-		(pts
-			(xy 214.63 52.07) (xy 233.68 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa925d16-e612-4a83-afb3-8cca6192f4fc")
 	)
 	(wire
 		(pts
@@ -7325,7 +7388,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 67.31) (xy 218.44 67.31)
+			(xy 201.93 67.31) (xy 233.68 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7595,16 +7658,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 67.31) (xy 233.68 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e80f9b56-87a6-4533-9133-be13384d602c")
-	)
-	(wire
-		(pts
 			(xy 116.84 57.15) (xy 148.59 57.15)
 		)
 		(stroke
@@ -7745,16 +7798,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 64.77) (xy 233.68 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc3d6ab6-7637-4170-9a1e-aa8ae1752ed9")
-	)
-	(wire
-		(pts
 			(xy 116.84 49.53) (xy 128.27 49.53)
 		)
 		(stroke
@@ -7884,12 +7927,12 @@
 		(uuid "1cb583bc-6e19-467b-9fe8-e82cc69d943c")
 	)
 	(label "D+"
-		(at 149.86 135.89 180)
+		(at 149.86 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "201b223c-7ee7-4583-807a-bd09233810cd")
 	)
@@ -8043,16 +8086,6 @@
 		)
 		(uuid "443d8ef4-44c0-4dd4-8fa0-8dd53add8c32")
 	)
-	(label "SSTXMUX+"
-		(at 138.43 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44c4fdc1-f693-45a5-8a53-42860733e039")
-	)
 	(label "SSRX+"
 		(at 254 127 0)
 		(effects
@@ -8092,16 +8125,6 @@
 			(justify left bottom)
 		)
 		(uuid "5023b831-0007-4195-b34b-27f0eaa8d183")
-	)
-	(label "TX1_IC+"
-		(at 201.93 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b2383b4-3b6f-474b-b615-c73397aa8333")
 	)
 	(label "VCONN"
 		(at 116.9258 62.23 0)
@@ -8152,16 +8175,6 @@
 			(justify left bottom)
 		)
 		(uuid "64acccb7-841f-4b19-b390-1e75c99ae9ad")
-	)
-	(label "TX2_IC+"
-		(at 201.93 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66006ca2-944a-4ade-8a80-a054af467f2d")
 	)
 	(label "TX2+"
 		(at 233.68 64.77 180)
@@ -8252,16 +8265,6 @@
 			(justify right bottom)
 		)
 		(uuid "80cd7ed9-75f7-485b-a98e-b2682650ece4")
-	)
-	(label "TX1_IC-"
-		(at 201.93 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "858c75df-c8af-45cc-b660-b707e5b15e4e")
 	)
 	(label "PORT"
 		(at 72.39 151.13 0)
@@ -8423,16 +8426,6 @@
 		)
 		(uuid "d40e3bfc-3651-4139-a1d4-6d9b5a8777eb")
 	)
-	(label "SSTXMUX-"
-		(at 138.43 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d49b71a0-08f5-4441-8eb9-3098a082c5fa")
-	)
 	(label "RX2+"
 		(at 233.68 69.85 180)
 		(effects
@@ -8532,16 +8525,6 @@
 			(justify right bottom)
 		)
 		(uuid "f7103d38-e7eb-429b-a3be-bb37186cfc22")
-	)
-	(label "TX2_IC-"
-		(at 201.93 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f881a2a2-2411-42ed-962c-fc3c1c5f964c")
 	)
 	(label "PORT"
 		(at 116.9258 59.69 0)
@@ -9329,7 +9312,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "292d385f-2289-4947-b04e-0d255e39ecfb")
 		(property "Reference" "#PWR030"
 			(at 170.18 157.48 0)
@@ -9343,13 +9325,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 156.21 0)
+			(at 168.656 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9974,118 +9957,6 @@
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 133.35 80.01 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "45934aa5-b872-44ad-b70b-b128d3d2a240")
-		(property "Reference" "C6"
-			(at 135.636 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 137.16 81.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 133.35 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 133.35 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Store Page" "https://www.lcsc.com/product-detail/C106204.html"
-			(at 133.35 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C106204"
-			(at 133.35 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unit Price" "0.0016"
-			(at 133.35 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d849083-2383-4695-a6fc-c960b00431f1")
-		)
-		(pin "2"
-			(uuid "e7ff0221-74ad-4229-b2b2-9592c8557749")
-		)
-		(instances
-			(project "HD3SS3220-breakout"
-				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10725,118 +10596,6 @@
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 212.09 52.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5e653b92-3b5d-4377-82d9-b0703f146d46")
-		(property "Reference" "C1"
-			(at 214.122 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 215.9 53.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 212.09 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 212.09 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Store Page" "https://www.lcsc.com/product-detail/C106204.html"
-			(at 212.09 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C106204"
-			(at 212.09 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unit Price" "0.0016"
-			(at 212.09 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "064b94a2-804e-4980-8865-837f1a4b1f3a")
-		)
-		(pin "2"
-			(uuid "32f1b2d8-b731-472c-a831-ccf4743dc74c")
-		)
-		(instances
-			(project "HD3SS3220-breakout"
-				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -11616,118 +11375,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 220.98 54.61 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f2d3b24-3710-475a-8f05-af655466e7c9")
-		(property "Reference" "C2"
-			(at 223.774 53.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 225.044 55.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 220.98 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 220.98 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Store Page" "https://www.lcsc.com/product-detail/C106204.html"
-			(at 220.98 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C106204"
-			(at 220.98 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unit Price" "0.0016"
-			(at 220.98 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b92942d-86ba-48cc-a415-9b322ad3bda6")
-		)
-		(pin "2"
-			(uuid "de99e422-8110-4f66-bef6-ad6a3a42e141")
-		)
-		(instances
-			(project "HD3SS3220-breakout"
-				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 207.01 31.75 0)
 		(unit 1)
@@ -12422,7 +12069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 105.41 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -12455,7 +12102,7 @@
 				)
 			)
 		)
-		(property "Store Page" "https://www.lcsc.com/product-detail/C106204.html"
+		(property "Store Page" "https://www.lcsc.com/product-detail/C394395.html"
 			(at 105.41 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -12466,7 +12113,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C106204"
+		(property "LCSC" "C394395"
 			(at 105.41 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -12576,118 +12223,6 @@
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 130.81 77.47 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b4e4397d-2272-4fc3-9077-1c631da60c64")
-		(property "Reference" "C5"
-			(at 128.524 76.454 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 126.746 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 130.81 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 130.81 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Store Page" "https://www.lcsc.com/product-detail/C106204.html"
-			(at 130.81 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C106204"
-			(at 130.81 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unit Price" "0.0016"
-			(at 130.81 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76674749-91ab-44b6-8da7-f7b69b2cc5f6")
-		)
-		(pin "2"
-			(uuid "c93c800b-5530-4ff6-9fe3-e05002847c27")
-		)
-		(instances
-			(project "HD3SS3220-breakout"
-				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -13894,7 +13429,7 @@
 				)
 			)
 		)
-		(property "Store Page" "https://www.lcsc.com/product-detail/C22359725.html"
+		(property "Store Page" "https://www.lcsc.com/product-detail/C2927039.html"
 			(at 264.16 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13905,7 +13440,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2765186"
+		(property "LCSC" "C2927039"
 			(at 264.16 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -14012,118 +13547,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 220.98 67.31 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e2ff44f7-f485-47f2-8238-dd64bb35547b")
-		(property "Reference" "C4"
-			(at 223.266 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 224.79 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 220.98 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 220.98 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Store Page" "https://www.lcsc.com/product-detail/C106204.html"
-			(at 220.98 67.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C106204"
-			(at 220.98 67.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unit Price" "0.0016"
-			(at 220.98 67.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15fd45a8-0e8c-471a-a123-549bfbfafc7d")
-		)
-		(pin "2"
-			(uuid "c73a7d29-e344-406c-8417-0609881d4963")
-		)
-		(instances
-			(project "HD3SS3220-breakout"
-				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 154.94 151.13 0)
 		(unit 1)
@@ -14196,118 +13619,6 @@
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 212.09 64.77 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e544ae25-0545-4236-9871-e748aa93df3c")
-		(property "Reference" "C3"
-			(at 214.63 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 216.154 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 212.09 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 212.09 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Store Page" "https://www.lcsc.com/product-detail/C106204.html"
-			(at 212.09 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C106204"
-			(at 212.09 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unit Price" "0.0016"
-			(at 212.09 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9dc9b0a4-bb79-451d-a4fe-2a436c93bdfd")
-		)
-		(pin "2"
-			(uuid "221539b9-3fcf-4d8c-81c9-cec52b909a06")
-		)
-		(instances
-			(project "HD3SS3220-breakout"
-				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "C3")
 					(unit 1)
 				)
 			)
