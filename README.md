@@ -7,13 +7,9 @@ This test board utilizes the **HD3SS3220RNHR USB-C Multiplexer** to validate USB
 ## 📸 Project Previews
 
 **3D Render & PCB Layout:**
-
 <br>
-
 ![3D Render](Screenshots/3d_Render.png)
-
 <br><br>
-
 ![PCB Layout](Screenshots/PCB_Layout.png)
 ![PCB Layout](Screenshots/PCB_Layout_Filled.png)
 
