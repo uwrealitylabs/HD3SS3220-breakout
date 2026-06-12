@@ -5957,6 +5957,12 @@
 		(uuid "6659b38c-939b-41cc-a9bd-67514fc4983a")
 	)
 	(junction
+		(at 123.19 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "700e1b8b-57df-4d45-beb1-d16267a88abf")
+	)
+	(junction
 		(at 218.44 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6009,12 +6015,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbbd4114-1dfc-4aac-92cc-fb8679243e5e")
-	)
-	(junction
-		(at 123.19 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1617193-2c0c-4f1f-a61d-f47029aa8465")
 	)
 	(junction
 		(at 21.59 146.05)
@@ -8016,6 +8016,16 @@
 		)
 		(uuid "337d4c16-6ff1-434a-b1a7-f789b3695264")
 	)
+	(label "V_OUT"
+		(at 96.52 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33d5773a-19c3-4094-bac3-32b7f5f45852")
+	)
 	(label "CC2"
 		(at 233.68 36.83 180)
 		(effects
@@ -8255,16 +8265,6 @@
 			(justify left bottom)
 		)
 		(uuid "7ab7355d-d4e2-4367-afe8-3f7ae5da60ae")
-	)
-	(label "V_OUT"
-		(at 96.52 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "80cd7ed9-75f7-485b-a98e-b2682650ece4")
 	)
 	(label "PORT"
 		(at 72.39 151.13 0)
@@ -12080,7 +12080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MSASE32MAB5107MPNA01&u=M"
 			(at 105.41 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -13396,7 +13396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Interface_USB:USB-C-SMD_TYPE-C-USB-19"
+		(property "Footprint" "Interface_USB:USB-C-SMD_TYPEC-324G-BCP24"
 			(at 260.35 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13429,7 +13429,7 @@
 				)
 			)
 		)
-		(property "Store Page" "https://www.lcsc.com/product-detail/C2927039.html"
+		(property "Store Page" "https://www.lcsc.com/product-detail/C920230.html"
 			(at 264.16 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13440,7 +13440,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2927039"
+		(property "LCSC" "C920230"
 			(at 264.16 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13975,7 +13975,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/products/Capacitors/part/CC0402KRX5R7BB104"
 			(at 105.41 43.18 0)
 			(hide yes)
 			(show_name no)
