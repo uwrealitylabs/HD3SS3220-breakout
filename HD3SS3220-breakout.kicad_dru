@@ -2,3 +2,8 @@
 (rule "Allow tight corners on U1"
   (constraint clearance (min 0.07mm))
   (condition "A.Reference == 'U1' && B.Reference == 'U1'"))
+
+(rule "allow_usb_shield_annular"
+   (constraint annular_width (min 0mm))
+   (condition "A.Reference == 'J1'")
+)
