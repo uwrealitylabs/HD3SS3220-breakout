@@ -7,7 +7,7 @@
 	(title_block
 		(title "USB-3.0 Bridging Board Root")
 		(date "2026-04-16")
-		(rev "R1")
+		(rev "R3")
 		(company "UWaterloo Reality Labs")
 		(comment 4 "Authors: Brandon, Marcus, Dinh")
 	)
@@ -5840,7 +5840,7 @@
 	)
 	(text "Bypass"
 		(exclude_from_sim no)
-		(at 94.996 30.988 0)
+		(at 94.996 30.734 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8555,7 +8555,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0459118c-a9ef-469d-9d88-00ac28d51527")
 		(property "Reference" "TP1"
 			(at 126.492 34.29 90)
@@ -9715,7 +9715,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "37a6e1fa-b048-4317-aad4-522b2e4c5e51")
 		(property "Reference" "TP7"
 			(at 212.09 27.1779 0)
@@ -10052,7 +10052,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53118920-612a-48be-8249-77ba5631bc1d")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 62.738 36.068 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10147,7 +10147,7 @@
 		(instances
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "C8")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10164,7 +10164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54ffe422-1551-4b49-a6f2-3cb9974d8b2b")
-		(property "Reference" "C9"
+		(property "Reference" "C4"
 			(at 97.282 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10259,7 +10259,7 @@
 		(instances
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "C9")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10392,7 +10392,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5902b077-90e5-4360-9dc1-7680008b5bcc")
-		(property "Reference" "SW3"
+		(property "Reference" "SW1"
 			(at 41.148 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10517,7 +10517,7 @@
 		(instances
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "SW3")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -10611,7 +10611,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6fa9b707-868c-4ba3-a5c9-0a8e7d7c4a0c")
 		(property "Reference" "TP2"
 			(at 130.81 58.928 90)
@@ -10789,7 +10789,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7223de08-9a2f-421a-addc-d2952995d35d")
 		(property "Reference" "TP3"
 			(at 118.11 36.068 90)
@@ -11282,7 +11282,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "87263f80-a338-419f-9f42-4ee0cfb56b60")
 		(property "Reference" "TP4"
 			(at 223.0121 92.71 0)
@@ -11383,7 +11383,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "922ee58c-9547-48dd-a01c-36f26e11eb8a")
 		(property "Reference" "TP6"
 			(at 209.55 27.1779 0)
@@ -11946,7 +11946,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a7221be2-c76f-4182-b586-ccb290848cbc")
 		(property "Reference" "TP5"
 			(at 223.0121 96.52 0)
@@ -12049,8 +12049,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b17b2c5e-4854-4de4-81cd-530f8bcf305c")
-		(property "Reference" "C12"
-			(at 109.22 26.67 0)
+		(property "Reference" "C5"
+			(at 108.458 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12144,7 +12144,7 @@
 		(instances
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "C12")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -12351,7 +12351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b965940f-d127-4fa0-9879-6d941d44f477")
-		(property "Reference" "C7"
+		(property "Reference" "C1"
 			(at 26.924 36.068 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12446,7 +12446,7 @@
 		(instances
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "C7")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -12653,8 +12653,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1d4c695-6d79-4b4d-a533-357f02e0779e")
-		(property "Reference" "C11"
-			(at 96.774 26.924 0)
+		(property "Reference" "C3"
+			(at 96.774 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12664,7 +12664,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 95.504 28.702 0)
+			(at 95.504 28.448 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12748,7 +12748,7 @@
 		(instances
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "C11")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -13944,8 +13944,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5f3c784-cd93-4971-a824-b316a408375c")
-		(property "Reference" "C10"
-			(at 109.22 41.148 0)
+		(property "Reference" "C6"
+			(at 108.712 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14039,7 +14039,7 @@
 		(instances
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
-					(reference "C10")
+					(reference "C6")
 					(unit 1)
 				)
 			)
