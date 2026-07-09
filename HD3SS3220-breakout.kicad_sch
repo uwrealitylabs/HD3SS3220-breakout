@@ -5748,16 +5748,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 30.48) (xy 66.04 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e5217d0-e436-40a9-ab7b-1f74a67f353f")
-	)
-	(wire
-		(pts
 			(xy 91.44 138.43) (xy 93.98 138.43)
 		)
 		(stroke
@@ -6238,6 +6228,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 30.48) (xy 66.04 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ba0597-959f-4b92-a784-c0e4de33e49f")
+	)
+	(wire
+		(pts
 			(xy 242.57 132.08) (xy 245.11 132.08)
 		)
 		(stroke
@@ -6476,6 +6476,16 @@
 		)
 		(uuid "6a917b55-a571-4ac2-971b-35e83af6c31c")
 	)
+	(wire
+		(pts
+			(xy 66.04 27.94) (xy 66.04 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b341c58-bdbb-42eb-afdf-b50f7eadfe5c")
+	)
 	(polyline
 		(pts
 			(xy 231.14 15.24) (xy 231.14 110.49)
@@ -6595,6 +6605,16 @@
 			(type default)
 		)
 		(uuid "74ab7c5c-0e8a-48b4-b92c-66a6ad7f7e5c")
+	)
+	(wire
+		(pts
+			(xy 90.17 38.1) (xy 90.17 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75cf7d41-9cc4-46de-b887-45062ec4e652")
 	)
 	(wire
 		(pts
@@ -7078,6 +7098,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 39.37) (xy 116.84 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b947df33-e484-4def-97ee-c91f65994ec5")
+	)
+	(wire
+		(pts
 			(xy 57.15 72.39) (xy 60.96 72.39)
 		)
 		(stroke
@@ -7355,16 +7385,6 @@
 			(type default)
 		)
 		(uuid "db78a180-f7b7-447c-9273-d4b9d195c288")
-	)
-	(wire
-		(pts
-			(xy 90.17 39.37) (xy 116.84 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd0498c2-6509-4d9b-986c-a39859f8028c")
 	)
 	(wire
 		(pts
@@ -7656,16 +7676,6 @@
 		)
 		(uuid "0854053b-00dc-4530-b6d0-97cccf437b7b")
 	)
-	(label "V_OUT"
-		(at 66.04 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0855caab-0612-49b7-928d-396f793f2af9")
-	)
 	(label "RX1+"
 		(at 228.6 121.92 0)
 		(effects
@@ -7845,16 +7855,6 @@
 			(justify left bottom)
 		)
 		(uuid "337d4c16-6ff1-434a-b1a7-f789b3695264")
-	)
-	(label "V_OUT"
-		(at 90.17 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "33d5773a-19c3-4094-bac3-32b7f5f45852")
 	)
 	(label "TX1-"
 		(at 198.12 127 180)
@@ -8528,7 +8528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 116.84 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8720,6 +8720,83 @@
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 90.17 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10072053-041b-4cb6-b8c3-ce7d037116dc")
+		(property "Reference" "#PWR027"
+			(at 90.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_OUT"
+			(at 86.106 37.084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 90.17 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d235319-1ef9-4918-a113-0456d20a9e30")
+		)
+		(instances
+			(project "HD3SS3220-breakout"
+				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9690,7 +9767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 208.28 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10467,7 +10544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 124.46 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10567,7 +10644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 111.76 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10741,6 +10818,83 @@
 			(project "HD3SS3220-breakout"
 				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 66.04 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7661f81b-7027-425b-b82f-bb116216aaca")
+		(property "Reference" "#PWR040"
+			(at 66.04 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_OUT"
+			(at 70.104 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 66.04 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab762be5-1a00-445a-ad38-1d0a3bd6c20a")
+		)
+		(instances
+			(project "HD3SS3220-breakout"
+				(path "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -11163,7 +11317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 205.74 31.75 0)
 			(hide yes)
 			(show_name no)
