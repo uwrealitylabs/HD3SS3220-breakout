@@ -1,0 +1,72 @@
+** Drc report for HD3SS3220-breakout.kicad_pcb **
+** Created on 2026-07-24T10:14:30 **
+** Report includes: Errors, Exclusions **
+
+** Found 9 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1692 mm)
+    Rule: board setup constraints hole; error
+    @(98.3155 mm, 82.1089 mm): PTH pad 1 [<no net>] of J1
+    @(98.9355 mm, 82.9589 mm): PTH pad [<no net>] of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1682 mm)
+    Rule: board setup constraints hole; error
+    @(99.4555 mm, 82.2889 mm): Pad B12 [GND] of J1 on F.Cu (Signal)
+    @(98.9355 mm, 82.9589 mm): PTH pad [<no net>] of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1692 mm)
+    Rule: board setup constraints hole; error
+    @(98.3155 mm, 82.1089 mm): PTH pad 1 [<no net>] of J1
+    @(98.9355 mm, 82.9589 mm): PTH pad [<no net>] of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1692 mm)
+    Rule: board setup constraints hole; error
+    @(98.3155 mm, 82.1089 mm): PTH pad 1 [<no net>] of J1
+    @(98.9355 mm, 82.9589 mm): PTH pad [<no net>] of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1692 mm)
+    Rule: board setup constraints hole; error
+    @(98.3155 mm, 82.1089 mm): PTH pad 1 [<no net>] of J1
+    @(98.9355 mm, 82.9589 mm): PTH pad [<no net>] of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1692 mm)
+    Rule: board setup constraints hole; error
+    @(106.3555 mm, 82.1089 mm): PTH pad 2 [<no net>] of J1
+    @(105.7355 mm, 82.9589 mm): PTH pad [<no net>] of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1692 mm)
+    Rule: board setup constraints hole; error
+    @(106.3555 mm, 82.1089 mm): PTH pad 2 [<no net>] of J1
+    @(105.7355 mm, 82.9589 mm): PTH pad [<no net>] of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1692 mm)
+    Rule: board setup constraints hole; error
+    @(106.3555 mm, 82.1089 mm): PTH pad 2 [<no net>] of J1
+    @(105.7355 mm, 82.9589 mm): PTH pad [<no net>] of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1692 mm)
+    Rule: board setup constraints hole; error
+    @(106.3555 mm, 82.1089 mm): PTH pad 2 [<no net>] of J1
+    @(105.7355 mm, 82.9589 mm): PTH pad [<no net>] of J1
+
+** Found 4 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.2055 mm, 78.4339 mm): Pad 10 [/TX2+] of U3 on F.Cu (Signal)
+    @(106.2055 mm, 77.2514 mm): Track [/TX2+] on F.Cu (Signal), length 0.4125 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.7055 mm, 77.2514 mm): Track [/TX2-] on F.Cu (Signal), length 0.4125 mm
+    @(105.7055 mm, 78.4339 mm): Pad 9 [/TX2-] of U3 on F.Cu (Signal)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.7055 mm, 78.8464 mm): Track [/RX2+] on F.Cu (Signal), length 0.4125 mm
+    @(104.7055 mm, 77.2514 mm): Track [/RX2+] on F.Cu (Signal), length 0.4125 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.2055 mm, 78.8464 mm): Track [/RX2-] on F.Cu (Signal), length 0.4125 mm
+    @(104.2055 mm, 77.2514 mm): Track [/RX2-] on F.Cu (Signal), length 0.4125 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
