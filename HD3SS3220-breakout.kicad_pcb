@@ -124,7 +124,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555dd7_7777fdff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -159,7 +158,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/home/dinhv/Documents/KiCad_Projects/HD3SS3220-breakout/")
+			(outputdirectory "Production/")
 		)
 	)
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
@@ -9881,7 +9880,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Fab: JLCPCB\nStack-up: 4-layer, JLCO4161H-3313 (Dk ≈ 4.1, Df ≈ 0.02)\nCopper weight: 1oz (35µm) all layers\n\nImpedance control: USB D+/D-, RX+/RX-, TX+/TX-, SSRX+/SSRX-, SSTX+/SSTX-\ndifferential pairs, tightly coupled\n\nRouting style: Differential (Non-coplanar)\nflanking both sides, same layer\n\nTarget impedance: 90Ω ±10% differential (USB 3.0 spec)\nTrace width: 0.1527mm (6.0118 mil)\nDifferential gap (DP spacing): 0.2032mm (8.0000 mil)\nGround clearance: 0.2000mm (7.8740 mil)\n\nNote to fab: {dblquote}Controlled Impedance - 90Ω ±10% differential, \ncoplanar pairs, W=0.1527mm / S=0.2032mm / \nclearance=0.20000mm per attached stack-up{dblquote}\n\nSurface finish: ENIG recommended for fine-pitch USB-C connector pads\nSoldermask: Green\nSilkscreen: White (min 0.15mm line width)\nBOM/Parts sourcing: LCSC part numbers referenced in BOM for JLCPCB SMT assembly"
+	(gr_text "Fab: JLCPCB\nStack-up: 4-layer, JLCO4161H-3313 (Dk ≈ 4.1, Df ≈ 0.02)\nCopper weight: 1oz (35µm) all layers\n\nImpedance control: USB D+/D-, RX+/RX-, TX+/TX-, SSRX+/SSRX-, SSTX+/SSTX-\ndifferential pairs, tightly coupled\n\nRouting style: Differential (Non-coplanar)\nflanking both sides, same layer\n\nTarget impedance: 90Ω ±10% differential (USB 3.0 spec)\nTrace width: 0.1527mm (6.0118 mil)\nDifferential gap (DP spacing): 0.2032mm (8.0000 mil)\nGround clearance: 0.2000mm (7.8740 mil)\n\nNote to fab: {dblquote}Controlled Impedance - 90Ω ±10% differential, \nnon-coplanar pairs, W=0.1527mm / S=0.2032mm / \nclearance=0.20000mm per attached stack-up{dblquote}\n\nSurface finish: ENIG recommended for fine-pitch USB-C connector pads\nSoldermask: Green\nSilkscreen: White (min 0.15mm line width)\nBOM/Parts sourcing: LCSC part numbers referenced in BOM for JLCPCB SMT assembly"
 		(at 121.8055 81.163927 0)
 		(layer "Dwgs.User")
 		(uuid "8dc70430-7457-402d-aa78-169ee0f11578")
