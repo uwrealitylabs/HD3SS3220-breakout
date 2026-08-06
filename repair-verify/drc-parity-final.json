@@ -1,0 +1,4103 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-08-06T17:16:35",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "HD3SS3220-breakout.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1448 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 55.133927
+                    },
+                    "uuid": "11b047e3-037c-4dac-b2bd-1a39e22c0d2c"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 55.133927
+                    },
+                    "uuid": "11b047e3-037c-4dac-b2bd-1a39e22c0d2c"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1301 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 55.133927
+                    },
+                    "uuid": "11b047e3-037c-4dac-b2bd-1a39e22c0d2c"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 57.063927
+                    },
+                    "uuid": "a053c6f5-48f6-4cb4-b53d-e48200c1984e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 55.773927
+                    },
+                    "uuid": "c907edf0-1218-4e64-8c71-f841db979d7b"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1448 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 56.403927
+                    },
+                    "uuid": "a314847e-4cfa-451d-b784-b2b8c87e5974"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1301 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 57.063927
+                    },
+                    "uuid": "a053c6f5-48f6-4cb4-b53d-e48200c1984e"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 56.403927
+                    },
+                    "uuid": "a314847e-4cfa-451d-b784-b2b8c87e5974"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 53.863927
+                    },
+                    "uuid": "a789ff8b-c5b1-4361-a2ac-0bafb19ac68a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1301 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 53.863927
+                    },
+                    "uuid": "a789ff8b-c5b1-4361-a2ac-0bafb19ac68a"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1448 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 53.253927
+                    },
+                    "uuid": "4f3b848c-08c4-4cd0-876a-897f3c09b25b"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 53.863927
+                    },
+                    "uuid": "a789ff8b-c5b1-4361-a2ac-0bafb19ac68a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1448 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 55.133927
+                    },
+                    "uuid": "99dc48d2-da78-4d79-bc22-dd42159bd5e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1301 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 55.133927
+                    },
+                    "uuid": "99dc48d2-da78-4d79-bc22-dd42159bd5e5"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0011 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 53.863927
+                    },
+                    "uuid": "7bbab2ba-565c-4eab-aa3c-19fb5e4bc2bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0011 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 53.863927
+                    },
+                    "uuid": "fe001471-a410-4968-9903-f7c2c8175200"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0011 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 53.863927
+                    },
+                    "uuid": "404c4a1b-8cc3-45fd-9329-4647b5e5c1f2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0011 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 53.863927
+                    },
+                    "uuid": "c171a912-c715-4766-84df-e0d49f83dd9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1294 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 55.133927
+                    },
+                    "uuid": "a23c1b1b-340d-4c16-b48e-98db935cea2d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1294 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 55.133927
+                    },
+                    "uuid": "31228c1b-d273-4162-9b35-a100df9937b8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1294 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 55.133927
+                    },
+                    "uuid": "a8fa5a3b-3238-4e57-abd3-9775b3a1dba7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1294 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 55.133927
+                    },
+                    "uuid": "0f12fc14-4a07-4b78-9fdf-ab6b7de3abef"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1294 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 55.133927
+                    },
+                    "uuid": "8c745438-952b-43e6-aa25-ea4443a8f26d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 54.493927
+                    },
+                    "uuid": "f2802b18-f039-4a65-9150-4c470693133c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1301 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 53.863927
+                    },
+                    "uuid": "58c79d75-6dff-4086-a2bd-1c4ce949b35d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1301 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 115.7055,
+                        "y": 52.593927
+                    },
+                    "uuid": "0caf719d-917b-4ed7-89ff-436b738c6a0b"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 55.133927
+                    },
+                    "uuid": "a23c1b1b-340d-4c16-b48e-98db935cea2d"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 55.133927
+                    },
+                    "uuid": "31228c1b-d273-4162-9b35-a100df9937b8"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 55.133927
+                    },
+                    "uuid": "a8fa5a3b-3238-4e57-abd3-9775b3a1dba7"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 55.133927
+                    },
+                    "uuid": "0f12fc14-4a07-4b78-9fdf-ab6b7de3abef"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 55.133927
+                    },
+                    "uuid": "8c745438-952b-43e6-aa25-ea4443a8f26d"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 56.403927
+                    },
+                    "uuid": "fca2523e-91a4-42fe-93e0-fc0964018a31"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 56.403927
+                    },
+                    "uuid": "28bedd2f-5bb3-4e38-a643-10af4623ecdb"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 56.403927
+                    },
+                    "uuid": "83ec6a28-c9ca-4361-8a4a-1b10db22b2d3"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 56.403927
+                    },
+                    "uuid": "4229ac71-966b-474f-bfd8-1e75565bc639"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 56.403927
+                    },
+                    "uuid": "93f82092-26ed-4a8f-8f60-8fde2b412464"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 56.403927
+                    },
+                    "uuid": "5f424311-92a9-44c4-a92f-1e8c1fc87c62"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1448 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 56.403927
+                    },
+                    "uuid": "d10719e5-48e1-4d63-aa90-b31a9070b455"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 50.713927
+                    },
+                    "uuid": "412624bd-92c1-437f-a505-6c76919d1a41"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 50.053927
+                    },
+                    "uuid": "95a18504-8278-4727-b607-bc71f422399a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 51.323927
+                    },
+                    "uuid": "3916f5f4-701b-43d1-82a8-18d6da39a350"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 51.983927
+                    },
+                    "uuid": "428e232f-14ec-494d-9610-90e98027090c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1294 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 51.323927
+                    },
+                    "uuid": "3916f5f4-701b-43d1-82a8-18d6da39a350"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 50.713927
+                    },
+                    "uuid": "412624bd-92c1-437f-a505-6c76919d1a41"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 51.983927
+                    },
+                    "uuid": "428e232f-14ec-494d-9610-90e98027090c"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 51.323927
+                    },
+                    "uuid": "469f078a-cf5a-46f4-bb1c-4e3f3fb583a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1294 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 50.713927
+                    },
+                    "uuid": "412624bd-92c1-437f-a505-6c76919d1a41"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 51.323927
+                    },
+                    "uuid": "469f078a-cf5a-46f4-bb1c-4e3f3fb583a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 51.983927
+                    },
+                    "uuid": "428e232f-14ec-494d-9610-90e98027090c"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 52.593927
+                    },
+                    "uuid": "7765e551-7af7-400e-b8c1-046ddfcd6264"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1448 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 50.713927
+                    },
+                    "uuid": "412624bd-92c1-437f-a505-6c76919d1a41"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 52.593927
+                    },
+                    "uuid": "7765e551-7af7-400e-b8c1-046ddfcd6264"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1301 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 53.253927
+                    },
+                    "uuid": "4f3b848c-08c4-4cd0-876a-897f3c09b25b"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 52.593927
+                    },
+                    "uuid": "7765e551-7af7-400e-b8c1-046ddfcd6264"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1448 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 52.593927
+                    },
+                    "uuid": "2ba85e37-a3c4-4e23-9cea-d7f486bb4110"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 51.983927
+                    },
+                    "uuid": "428e232f-14ec-494d-9610-90e98027090c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1301 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 52.593927
+                    },
+                    "uuid": "2ba85e37-a3c4-4e23-9cea-d7f486bb4110"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 53.253927
+                    },
+                    "uuid": "4f3b848c-08c4-4cd0-876a-897f3c09b25b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1294 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 51.983927
+                    },
+                    "uuid": "428e232f-14ec-494d-9610-90e98027090c"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 52.593927
+                    },
+                    "uuid": "61bc6299-defe-47f8-8bbf-f76ce4342d3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1294 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 51.983927
+                    },
+                    "uuid": "428e232f-14ec-494d-9610-90e98027090c"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 52.593927
+                    },
+                    "uuid": "57540261-a7dd-420b-b6a1-319e6d3747de"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1294 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 51.983927
+                    },
+                    "uuid": "428e232f-14ec-494d-9610-90e98027090c"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 52.593927
+                    },
+                    "uuid": "733e4266-e74e-48cf-8634-a53f31091c44"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1448 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 51.983927
+                    },
+                    "uuid": "428e232f-14ec-494d-9610-90e98027090c"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 53.863927
+                    },
+                    "uuid": "58c79d75-6dff-4086-a2bd-1c4ce949b35d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1301 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 51.983927
+                    },
+                    "uuid": "428e232f-14ec-494d-9610-90e98027090c"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 51.323927
+                    },
+                    "uuid": "f99477ba-69dc-465a-af74-6adb83cd6f2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1301 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 51.983927
+                    },
+                    "uuid": "428e232f-14ec-494d-9610-90e98027090c"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 51.323927
+                    },
+                    "uuid": "eb6f2334-16d8-4b13-82bc-f4837ec85f9a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 51.983927
+                    },
+                    "uuid": "428e232f-14ec-494d-9610-90e98027090c"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 51.953927
+                    },
+                    "uuid": "53e447e3-3af3-49eb-9396-88e7d7539ad3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 53.253927
+                    },
+                    "uuid": "4f3b848c-08c4-4cd0-876a-897f3c09b25b"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 52.593927
+                    },
+                    "uuid": "61bc6299-defe-47f8-8bbf-f76ce4342d3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 53.253927
+                    },
+                    "uuid": "4f3b848c-08c4-4cd0-876a-897f3c09b25b"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 52.593927
+                    },
+                    "uuid": "57540261-a7dd-420b-b6a1-319e6d3747de"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 53.253927
+                    },
+                    "uuid": "4f3b848c-08c4-4cd0-876a-897f3c09b25b"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 52.593927
+                    },
+                    "uuid": "733e4266-e74e-48cf-8634-a53f31091c44"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1294 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 53.253927
+                    },
+                    "uuid": "4f3b848c-08c4-4cd0-876a-897f3c09b25b"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 53.863927
+                    },
+                    "uuid": "7bbab2ba-565c-4eab-aa3c-19fb5e4bc2bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1294 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 53.253927
+                    },
+                    "uuid": "4f3b848c-08c4-4cd0-876a-897f3c09b25b"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 53.863927
+                    },
+                    "uuid": "fe001471-a410-4968-9903-f7c2c8175200"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0388 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R3",
+                    "pos": {
+                        "x": 113.9955,
+                        "y": 59.263927
+                    },
+                    "uuid": "769185e8-afca-4f7c-9c95-92187684aabf"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.5055,
+                        "y": 58.463927
+                    },
+                    "uuid": "e4ad9fb1-400a-4d65-9b7f-7560e3f267d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 57.063927
+                    },
+                    "uuid": "a053c6f5-48f6-4cb4-b53d-e48200c1984e"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 56.403927
+                    },
+                    "uuid": "fca2523e-91a4-42fe-93e0-fc0964018a31"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0342 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 57.673927
+                    },
+                    "uuid": "8628aa42-a9dd-4514-8332-9d3ce20df473"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 57.063927
+                    },
+                    "uuid": "a053c6f5-48f6-4cb4-b53d-e48200c1984e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 56.403927
+                    },
+                    "uuid": "28bedd2f-5bb3-4e38-a643-10af4623ecdb"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 57.063927
+                    },
+                    "uuid": "a053c6f5-48f6-4cb4-b53d-e48200c1984e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 57.063927
+                    },
+                    "uuid": "a053c6f5-48f6-4cb4-b53d-e48200c1984e"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 56.403927
+                    },
+                    "uuid": "d10719e5-48e1-4d63-aa90-b31a9070b455"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 57.043927
+                    },
+                    "uuid": "8cd5e54d-d157-4651-b651-29cca8e0cdea"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 57.063927
+                    },
+                    "uuid": "a053c6f5-48f6-4cb4-b53d-e48200c1984e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1448 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 57.063927
+                    },
+                    "uuid": "a053c6f5-48f6-4cb4-b53d-e48200c1984e"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 57.673927
+                    },
+                    "uuid": "f4e3607c-9cc0-4b7e-9e04-a582b3f978f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 56.403927
+                    },
+                    "uuid": "83ec6a28-c9ca-4361-8a4a-1b10db22b2d3"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 57.063927
+                    },
+                    "uuid": "a053c6f5-48f6-4cb4-b53d-e48200c1984e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 56.403927
+                    },
+                    "uuid": "4229ac71-966b-474f-bfd8-1e75565bc639"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 57.063927
+                    },
+                    "uuid": "a053c6f5-48f6-4cb4-b53d-e48200c1984e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.3455,
+                        "y": 56.403927
+                    },
+                    "uuid": "93f82092-26ed-4a8f-8f60-8fde2b412464"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 57.063927
+                    },
+                    "uuid": "a053c6f5-48f6-4cb4-b53d-e48200c1984e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 56.403927
+                    },
+                    "uuid": "5f424311-92a9-44c4-a92f-1e8c1fc87c62"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 57.063927
+                    },
+                    "uuid": "a053c6f5-48f6-4cb4-b53d-e48200c1984e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 50.713927
+                    },
+                    "uuid": "412624bd-92c1-437f-a505-6c76919d1a41"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 50.693927
+                    },
+                    "uuid": "e8fc479d-28c9-4c3b-bc02-308520e37f7a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 50.713927
+                    },
+                    "uuid": "412624bd-92c1-437f-a505-6c76919d1a41"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 51.323927
+                    },
+                    "uuid": "f99477ba-69dc-465a-af74-6adb83cd6f2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1448 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 50.713927
+                    },
+                    "uuid": "412624bd-92c1-437f-a505-6c76919d1a41"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 51.323927
+                    },
+                    "uuid": "eb6f2334-16d8-4b13-82bc-f4837ec85f9a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 53.253927
+                    },
+                    "uuid": "4f3b848c-08c4-4cd0-876a-897f3c09b25b"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 53.233927
+                    },
+                    "uuid": "7648f8ba-5df6-42ed-b510-15965c77872a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1052 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 53.253927
+                    },
+                    "uuid": "4f3b848c-08c4-4cd0-876a-897f3c09b25b"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.4355,
+                        "y": 53.863927
+                    },
+                    "uuid": "58c79d75-6dff-4086-a2bd-1c4ce949b35d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1448 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 115.7055,
+                        "y": 52.593927
+                    },
+                    "uuid": "0caf719d-917b-4ed7-89ff-436b738c6a0b"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 53.253927
+                    },
+                    "uuid": "4f3b848c-08c4-4cd0-876a-897f3c09b25b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1294 mm)",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 53.863927
+                    },
+                    "uuid": "404c4a1b-8cc3-45fd-9329-4647b5e5c1f2"
+                },
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 53.253927
+                    },
+                    "uuid": "4f3b848c-08c4-4cd0-876a-897f3c09b25b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1294 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 53.253927
+                    },
+                    "uuid": "4f3b848c-08c4-4cd0-876a-897f3c09b25b"
+                },
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.2655,
+                        "y": 53.863927
+                    },
+                    "uuid": "c171a912-c715-4766-84df-e0d49f83dd9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1362 mm)",
+            "items": [
+                {
+                    "description": "Segment of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 99.9955,
+                        "y": 58.148927
+                    },
+                    "uuid": "32d23620-a1b6-4241-a57b-8c5b3baa5d92"
+                },
+                {
+                    "description": "Reference field of U4",
+                    "pos": {
+                        "x": 99.4055,
+                        "y": 57.663927
+                    },
+                    "uuid": "65bf3e68-8bb8-471a-8ff7-33090e24b78e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1235 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C6",
+                    "pos": {
+                        "x": 100.6055,
+                        "y": 62.263927
+                    },
+                    "uuid": "490caedd-020e-4542-86ac-bbc70a402fb1"
+                },
+                {
+                    "description": "Reference field of C4",
+                    "pos": {
+                        "x": 100.6055,
+                        "y": 63.263927
+                    },
+                    "uuid": "b7e51720-3618-4e85-ac7a-4081812831e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1303 mm)",
+            "items": [
+                {
+                    "description": "Segment of U5 on F.Silkscreen",
+                    "pos": {
+                        "x": 94.2655,
+                        "y": 56.793927
+                    },
+                    "uuid": "360b5c47-eceb-4c15-853a-0bce4a3868c2"
+                },
+                {
+                    "description": "Reference field of C2",
+                    "pos": {
+                        "x": 94.7055,
+                        "y": 57.563927
+                    },
+                    "uuid": "3a07583f-8ed6-4ea8-9f37-4d2c6380ac62"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1458 mm)",
+            "items": [
+                {
+                    "description": "Segment of R9 on F.Silkscreen",
+                    "pos": {
+                        "x": 94.649141,
+                        "y": 63.543927
+                    },
+                    "uuid": "1776c1cb-22a8-4793-8345-c77bbb394fa4"
+                },
+                {
+                    "description": "Reference field of R2",
+                    "pos": {
+                        "x": 94.2055,
+                        "y": 64.163927
+                    },
+                    "uuid": "3b1511b0-3240-424d-8ca6-0eef1ca823f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1032 mm)",
+            "items": [
+                {
+                    "description": "Reference field of DIR_LED2",
+                    "pos": {
+                        "x": 91.2755,
+                        "y": 63.963927
+                    },
+                    "uuid": "d655b897-fb92-4b08-a7bc-ff670eebc575"
+                },
+                {
+                    "description": "Reference field of VBUS_LED2",
+                    "pos": {
+                        "x": 91.2055,
+                        "y": 67.038927
+                    },
+                    "uuid": "f7d25af9-5ff3-4e4c-94fa-ae9bd986cf32"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1046 mm)",
+            "items": [
+                {
+                    "description": "Segment of DIR_LED2 on F.Silkscreen",
+                    "pos": {
+                        "x": 93.4405,
+                        "y": 65.448927
+                    },
+                    "uuid": "62ec5b42-f1a4-4ab4-bde6-8c8abacb63c4"
+                },
+                {
+                    "description": "Reference field of R7",
+                    "pos": {
+                        "x": 94.2055,
+                        "y": 65.263927
+                    },
+                    "uuid": "8efcf38f-3645-46d1-b947-20fdb2dc101c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1046 mm)",
+            "items": [
+                {
+                    "description": "Segment of DIR_LED2 on F.Silkscreen",
+                    "pos": {
+                        "x": 91.9705,
+                        "y": 65.448927
+                    },
+                    "uuid": "7a1b2444-b433-4248-a953-e52e5114a1f6"
+                },
+                {
+                    "description": "Reference field of R7",
+                    "pos": {
+                        "x": 94.2055,
+                        "y": 65.263927
+                    },
+                    "uuid": "8efcf38f-3645-46d1-b947-20fdb2dc101c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1046 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R2",
+                    "pos": {
+                        "x": 94.2055,
+                        "y": 64.163927
+                    },
+                    "uuid": "3b1511b0-3240-424d-8ca6-0eef1ca823f4"
+                },
+                {
+                    "description": "Segment of DIR_LED2 on F.Silkscreen",
+                    "pos": {
+                        "x": 93.4405,
+                        "y": 65.448927
+                    },
+                    "uuid": "62ec5b42-f1a4-4ab4-bde6-8c8abacb63c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1298 mm)",
+            "items": [
+                {
+                    "description": "Polygon of U3 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.6155,
+                        "y": 77.428927
+                    },
+                    "uuid": "03c2ec1f-2e67-4b42-95cb-2fc681ee4a58"
+                },
+                {
+                    "description": "Reference field of U3",
+                    "pos": {
+                        "x": 107.7055,
+                        "y": 78.067217
+                    },
+                    "uuid": "2e25d612-a839-48bb-bf01-6cc5c53a6591"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1305 mm)",
+            "items": [
+                {
+                    "description": "Polygon of U2 on F.Silkscreen",
+                    "pos": {
+                        "x": 100.3155,
+                        "y": 77.428927
+                    },
+                    "uuid": "199b4420-20cb-4b86-bf46-b1e3173eb478"
+                },
+                {
+                    "description": "Reference field of U2",
+                    "pos": {
+                        "x": 101.4055,
+                        "y": 78.067217
+                    },
+                    "uuid": "b28fdc9a-25b9-43b4-affe-990801edaf36"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1062 mm)",
+            "items": [
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 104.2055,
+                        "y": 64.063925
+                    },
+                    "uuid": "36ef7cbf-f1d4-46da-aa94-1a65a798d703"
+                },
+                {
+                    "description": "Reference field of U1",
+                    "pos": {
+                        "x": 103.6055,
+                        "y": 63.463927
+                    },
+                    "uuid": "7f3754a8-dd70-49f6-97ed-73be95990c65"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1062 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U1",
+                    "pos": {
+                        "x": 103.6055,
+                        "y": 63.463927
+                    },
+                    "uuid": "7f3754a8-dd70-49f6-97ed-73be95990c65"
+                },
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 104.2055,
+                        "y": 64.063925
+                    },
+                    "uuid": "e5e75a88-0828-4359-8589-c8d4bd570633"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.405576,
+                        "y": 34.303907
+                    },
+                    "uuid": "7a435a47-1ce6-4eb2-93c6-d9ab73aa0856"
+                },
+                {
+                    "description": "NPTH pad of J2",
+                    "pos": {
+                        "x": 104.4055,
+                        "y": 45.463927
+                    },
+                    "uuid": "df456e03-1799-4b92-ac67-1e21a965764d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.405576,
+                        "y": 34.303907
+                    },
+                    "uuid": "7a435a47-1ce6-4eb2-93c6-d9ab73aa0856"
+                },
+                {
+                    "description": "Pad 1 [VBUS] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 104.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "374c38f4-3b7a-4ba1-8db6-05886467e622"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.405576,
+                        "y": 34.303907
+                    },
+                    "uuid": "7a435a47-1ce6-4eb2-93c6-d9ab73aa0856"
+                },
+                {
+                    "description": "Pad 2 [/D-] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 102.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "52d1335a-2767-472d-a243-9c5788355746"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.405576,
+                        "y": 34.303907
+                    },
+                    "uuid": "7a435a47-1ce6-4eb2-93c6-d9ab73aa0856"
+                },
+                {
+                    "description": "Pad 7 [GND] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 101.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "340f1459-75e3-4b76-94b3-875f8d465e50"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.405576,
+                        "y": 34.303907
+                    },
+                    "uuid": "7a435a47-1ce6-4eb2-93c6-d9ab73aa0856"
+                },
+                {
+                    "description": "Pad 8 [/SSTX-] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 103.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "0164b5bf-16eb-44ab-ba9d-4f5a384d9f3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.405576,
+                        "y": 34.303907
+                    },
+                    "uuid": "7a435a47-1ce6-4eb2-93c6-d9ab73aa0856"
+                },
+                {
+                    "description": "Pad 9 [/SSTX+] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 105.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "3d6fe320-2a18-468e-b3ab-81db02983c76"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.405576,
+                        "y": 34.303907
+                    },
+                    "uuid": "7a435a47-1ce6-4eb2-93c6-d9ab73aa0856"
+                },
+                {
+                    "description": "Pad 10 [GND] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 108.955665,
+                        "y": 47.063876
+                    },
+                    "uuid": "feabb413-9d4a-480b-9f9f-4f6b58b43fef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.405576,
+                        "y": 34.303907
+                    },
+                    "uuid": "7a435a47-1ce6-4eb2-93c6-d9ab73aa0856"
+                },
+                {
+                    "description": "NPTH pad of J2",
+                    "pos": {
+                        "x": 99.305678,
+                        "y": 45.463927
+                    },
+                    "uuid": "fb57aefd-682d-458c-8365-5ed2d9c61b3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.405576,
+                        "y": 34.303907
+                    },
+                    "uuid": "7a435a47-1ce6-4eb2-93c6-d9ab73aa0856"
+                },
+                {
+                    "description": "Pad 3 [/D+] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 100.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "24e22095-408a-400b-9ca5-5c46439b2bb1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.405576,
+                        "y": 34.303907
+                    },
+                    "uuid": "7a435a47-1ce6-4eb2-93c6-d9ab73aa0856"
+                },
+                {
+                    "description": "Pad 4 [GND] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 98.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "8bad5426-211d-4374-8730-104b999746dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.405576,
+                        "y": 34.303907
+                    },
+                    "uuid": "7a435a47-1ce6-4eb2-93c6-d9ab73aa0856"
+                },
+                {
+                    "description": "Pad 5 [/SSRX-] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 97.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "eac35d76-084f-4a82-8989-a287b3992938"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.405576,
+                        "y": 34.303907
+                    },
+                    "uuid": "7a435a47-1ce6-4eb2-93c6-d9ab73aa0856"
+                },
+                {
+                    "description": "Pad 6 [/SSRX+] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 99.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "fe2a57a9-06c4-4b82-8c07-2a79cc1dd89d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.405576,
+                        "y": 34.303907
+                    },
+                    "uuid": "7a435a47-1ce6-4eb2-93c6-d9ab73aa0856"
+                },
+                {
+                    "description": "Pad 11 [GND] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 94.755513,
+                        "y": 47.063876
+                    },
+                    "uuid": "08de87eb-42dc-4aca-8c9a-3a120a84ba76"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 98.100572,
+                        "y": 48.323897
+                    },
+                    "uuid": "d6fc31f0-a00b-4e2c-8cf5-58c251427c66"
+                },
+                {
+                    "description": "Pad 5 [/SSRX-] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 97.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "eac35d76-084f-4a82-8989-a287b3992938"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 95.335574,
+                        "y": 48.313889
+                    },
+                    "uuid": "0b10e2a2-db15-43b6-ad07-1c1bff95bdec"
+                },
+                {
+                    "description": "Pad 11 [GND] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 94.755513,
+                        "y": 47.063876
+                    },
+                    "uuid": "08de87eb-42dc-4aca-8c9a-3a120a84ba76"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 99.100598,
+                        "y": 48.323897
+                    },
+                    "uuid": "751b7aa4-fd00-438a-bb4a-0df619ec9761"
+                },
+                {
+                    "description": "Pad 4 [GND] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 98.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "8bad5426-211d-4374-8730-104b999746dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 100.100598,
+                        "y": 48.323897
+                    },
+                    "uuid": "a20d2806-8ba5-4fa6-9581-dbbbabc317e9"
+                },
+                {
+                    "description": "Pad 6 [/SSRX+] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 99.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "fe2a57a9-06c4-4b82-8c07-2a79cc1dd89d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 109.855589,
+                        "y": 48.313889
+                    },
+                    "uuid": "c383feba-0e8f-408b-97b5-e365ce3317d5"
+                },
+                {
+                    "description": "Pad 10 [GND] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 108.955665,
+                        "y": 47.063876
+                    },
+                    "uuid": "feabb413-9d4a-480b-9f9f-4f6b58b43fef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 101.100598,
+                        "y": 48.323897
+                    },
+                    "uuid": "b5d4db4d-d7e2-426b-974b-0baf1e989e29"
+                },
+                {
+                    "description": "Pad 3 [/D+] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 100.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "24e22095-408a-400b-9ca5-5c46439b2bb1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 102.100598,
+                        "y": 48.323897
+                    },
+                    "uuid": "95c57619-198f-4c86-8fed-b908ee8cb16d"
+                },
+                {
+                    "description": "Pad 7 [GND] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 101.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "340f1459-75e3-4b76-94b3-875f8d465e50"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 103.100598,
+                        "y": 48.323897
+                    },
+                    "uuid": "ead5ffaa-22b0-4db2-b777-769dbb805552"
+                },
+                {
+                    "description": "Pad 2 [/D-] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 102.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "52d1335a-2767-472d-a243-9c5788355746"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 104.100598,
+                        "y": 48.323897
+                    },
+                    "uuid": "f78f82ce-56c7-4fd5-b70e-769351842ae3"
+                },
+                {
+                    "description": "Pad 8 [/SSTX-] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 103.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "0164b5bf-16eb-44ab-ba9d-4f5a384d9f3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 105.100598,
+                        "y": 48.323897
+                    },
+                    "uuid": "489b1014-bdfb-4d76-8183-b0efb65ab2b3"
+                },
+                {
+                    "description": "Pad 1 [VBUS] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 104.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "374c38f4-3b7a-4ba1-8db6-05886467e622"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.100598,
+                        "y": 48.323897
+                    },
+                    "uuid": "4c9baf1a-0eb3-4bf2-ad80-28aa7239644c"
+                },
+                {
+                    "description": "Pad 9 [/SSTX+] of J2 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 105.855589,
+                        "y": 47.763902
+                    },
+                    "uuid": "3d6fe320-2a18-468e-b3ab-81db02983c76"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 99.005498,
+                        "y": 64.063928
+                    },
+                    "uuid": "fe2f6855-eb7d-4333-a3e1-f419a9865597"
+                },
+                {
+                    "description": "Pad 2 [V_OUT] of C4 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 99.0055,
+                        "y": 64.063927
+                    },
+                    "uuid": "107af6ef-4a92-4e76-8fce-84fcf732d172"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 99.005498,
+                        "y": 64.063928
+                    },
+                    "uuid": "3e4465da-aec5-4ea1-98f6-ec2b3aa58403"
+                },
+                {
+                    "description": "Pad 2 [V_OUT] of C4 on F.Cu (Signal)",
+                    "pos": {
+                        "x": 99.0055,
+                        "y": 64.063927
+                    },
+                    "uuid": "107af6ef-4a92-4e76-8fce-84fcf732d172"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'USB-3.0\nBridging Board' on F.Silkscreen",
+                    "pos": {
+                        "x": 93.6055,
+                        "y": 44.863927
+                    },
+                    "uuid": "a2b801b9-b7a7-47c7-b1c9-ce4f09447adf"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'UWaterloo\nReality\nLabs' on F.Silkscreen",
+                    "pos": {
+                        "x": 95.2055,
+                        "y": 82.463927
+                    },
+                    "uuid": "96acd155-a24e-4faa-a02b-6fd72bfcee79"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'Brandon T,\nDinh L,\nMarcus L,' on F.Silkscreen",
+                    "pos": {
+                        "x": 97.4055,
+                        "y": 75.263927
+                    },
+                    "uuid": "76addbbe-2eef-47fc-95f8-975a92cfc87d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of TP5",
+                    "pos": {
+                        "x": 111.7055,
+                        "y": 86.563927
+                    },
+                    "uuid": "c6bf5858-e869-43d5-90ad-e4c1ff2575fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of TP5",
+                    "pos": {
+                        "x": 111.7055,
+                        "y": 86.563927
+                    },
+                    "uuid": "c6bf5858-e869-43d5-90ad-e4c1ff2575fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U4",
+                    "pos": {
+                        "x": 99.4055,
+                        "y": 57.663927
+                    },
+                    "uuid": "65bf3e68-8bb8-471a-8ff7-33090e24b78e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U4",
+                    "pos": {
+                        "x": 99.4055,
+                        "y": 57.663927
+                    },
+                    "uuid": "65bf3e68-8bb8-471a-8ff7-33090e24b78e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R3",
+                    "pos": {
+                        "x": 113.9955,
+                        "y": 59.263927
+                    },
+                    "uuid": "769185e8-afca-4f7c-9c95-92187684aabf"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R3",
+                    "pos": {
+                        "x": 113.9955,
+                        "y": 59.263927
+                    },
+                    "uuid": "769185e8-afca-4f7c-9c95-92187684aabf"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R8",
+                    "pos": {
+                        "x": 95.3055,
+                        "y": 66.763927
+                    },
+                    "uuid": "3e38044d-1ad1-4a18-9366-6fa1df402584"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R8",
+                    "pos": {
+                        "x": 95.3055,
+                        "y": 66.763927
+                    },
+                    "uuid": "3e38044d-1ad1-4a18-9366-6fa1df402584"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C5",
+                    "pos": {
+                        "x": 109.6055,
+                        "y": 63.263927
+                    },
+                    "uuid": "0d9aa1d7-3f30-4a93-b867-9ee3d19102f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C5",
+                    "pos": {
+                        "x": 109.6055,
+                        "y": 63.263927
+                    },
+                    "uuid": "0d9aa1d7-3f30-4a93-b867-9ee3d19102f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C6",
+                    "pos": {
+                        "x": 100.6055,
+                        "y": 62.263927
+                    },
+                    "uuid": "490caedd-020e-4542-86ac-bbc70a402fb1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C6",
+                    "pos": {
+                        "x": 100.6055,
+                        "y": 62.263927
+                    },
+                    "uuid": "490caedd-020e-4542-86ac-bbc70a402fb1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of J3",
+                    "pos": {
+                        "x": 117.5055,
+                        "y": 67.063927
+                    },
+                    "uuid": "da554a4b-a319-4374-8c69-8c5afc422e25"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of J3",
+                    "pos": {
+                        "x": 117.5055,
+                        "y": 67.063927
+                    },
+                    "uuid": "da554a4b-a319-4374-8c69-8c5afc422e25"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R5",
+                    "pos": {
+                        "x": 106.6055,
+                        "y": 55.063927
+                    },
+                    "uuid": "848f645d-63f7-4f96-88d6-a473dce42062"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R5",
+                    "pos": {
+                        "x": 106.6055,
+                        "y": 55.063927
+                    },
+                    "uuid": "848f645d-63f7-4f96-88d6-a473dce42062"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R7",
+                    "pos": {
+                        "x": 94.2055,
+                        "y": 65.263927
+                    },
+                    "uuid": "8efcf38f-3645-46d1-b947-20fdb2dc101c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R7",
+                    "pos": {
+                        "x": 94.2055,
+                        "y": 65.263927
+                    },
+                    "uuid": "8efcf38f-3645-46d1-b947-20fdb2dc101c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of TP4",
+                    "pos": {
+                        "x": 115.4055,
+                        "y": 86.563927
+                    },
+                    "uuid": "1ae7c8b4-c53d-4d71-a7e1-ecaa4d605179"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of TP4",
+                    "pos": {
+                        "x": 115.4055,
+                        "y": 86.563927
+                    },
+                    "uuid": "1ae7c8b4-c53d-4d71-a7e1-ecaa4d605179"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of DIR_LED2",
+                    "pos": {
+                        "x": 91.2755,
+                        "y": 63.963927
+                    },
+                    "uuid": "d655b897-fb92-4b08-a7bc-ff670eebc575"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of DIR_LED2",
+                    "pos": {
+                        "x": 91.2755,
+                        "y": 63.963927
+                    },
+                    "uuid": "d655b897-fb92-4b08-a7bc-ff670eebc575"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of TP2",
+                    "pos": {
+                        "x": 111.4055,
+                        "y": 78.163927
+                    },
+                    "uuid": "764bd69c-0228-4b5d-8573-def87d079b17"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of TP2",
+                    "pos": {
+                        "x": 111.4055,
+                        "y": 78.163927
+                    },
+                    "uuid": "764bd69c-0228-4b5d-8573-def87d079b17"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0800 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 50.713927
+                    },
+                    "uuid": "412624bd-92c1-437f-a505-6c76919d1a41"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0800 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 51.983927
+                    },
+                    "uuid": "428e232f-14ec-494d-9610-90e98027090c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0800 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 53.253927
+                    },
+                    "uuid": "4f3b848c-08c4-4cd0-876a-897f3c09b25b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0800 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 54.523927
+                    },
+                    "uuid": "173bbe70-6d89-4fe1-98f4-9c1dce9c0b97"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0800 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 55.793927
+                    },
+                    "uuid": "f48a5254-b44a-4d61-b4a6-d0948874f811"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0800 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of SW1 (ON)",
+                    "pos": {
+                        "x": 112.2555,
+                        "y": 57.063927
+                    },
+                    "uuid": "a053c6f5-48f6-4cb4-b53d-e48200c1984e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R6",
+                    "pos": {
+                        "x": 109.8055,
+                        "y": 67.553927
+                    },
+                    "uuid": "e87c6fb8-e328-4a6a-9cdc-914a3ab9a558"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R6",
+                    "pos": {
+                        "x": 109.8055,
+                        "y": 67.553927
+                    },
+                    "uuid": "e87c6fb8-e328-4a6a-9cdc-914a3ab9a558"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C2",
+                    "pos": {
+                        "x": 94.7055,
+                        "y": 57.563927
+                    },
+                    "uuid": "3a07583f-8ed6-4ea8-9f37-4d2c6380ac62"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C2",
+                    "pos": {
+                        "x": 94.7055,
+                        "y": 57.563927
+                    },
+                    "uuid": "3a07583f-8ed6-4ea8-9f37-4d2c6380ac62"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R9",
+                    "pos": {
+                        "x": 94.2055,
+                        "y": 62.163927
+                    },
+                    "uuid": "0c2791e6-313f-4d95-82bd-475eaf1cbbd9"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R9",
+                    "pos": {
+                        "x": 94.2055,
+                        "y": 62.163927
+                    },
+                    "uuid": "0c2791e6-313f-4d95-82bd-475eaf1cbbd9"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C4",
+                    "pos": {
+                        "x": 100.6055,
+                        "y": 63.263927
+                    },
+                    "uuid": "b7e51720-3618-4e85-ac7a-4081812831e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C4",
+                    "pos": {
+                        "x": 100.6055,
+                        "y": 63.263927
+                    },
+                    "uuid": "b7e51720-3618-4e85-ac7a-4081812831e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C3",
+                    "pos": {
+                        "x": 105.0055,
+                        "y": 61.863927
+                    },
+                    "uuid": "c8810dac-70b0-4d56-989b-1ae1a275a5d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C3",
+                    "pos": {
+                        "x": 105.0055,
+                        "y": 61.863927
+                    },
+                    "uuid": "c8810dac-70b0-4d56-989b-1ae1a275a5d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U5",
+                    "pos": {
+                        "x": 97.6055,
+                        "y": 52.663927
+                    },
+                    "uuid": "e139b12b-1724-4726-93c9-9ae2d92b2ce5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U5",
+                    "pos": {
+                        "x": 97.6055,
+                        "y": 52.663927
+                    },
+                    "uuid": "e139b12b-1724-4726-93c9-9ae2d92b2ce5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of VBUS_LED2",
+                    "pos": {
+                        "x": 91.2055,
+                        "y": 67.038927
+                    },
+                    "uuid": "f7d25af9-5ff3-4e4c-94fa-ae9bd986cf32"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of VBUS_LED2",
+                    "pos": {
+                        "x": 91.2055,
+                        "y": 67.038927
+                    },
+                    "uuid": "f7d25af9-5ff3-4e4c-94fa-ae9bd986cf32"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C1",
+                    "pos": {
+                        "x": 91.8055,
+                        "y": 56.663927
+                    },
+                    "uuid": "2877b9a6-00e1-47d1-b99f-761a90dc8236"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C1",
+                    "pos": {
+                        "x": 91.8055,
+                        "y": 56.663927
+                    },
+                    "uuid": "2877b9a6-00e1-47d1-b99f-761a90dc8236"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R1",
+                    "pos": {
+                        "x": 104.0055,
+                        "y": 60.463927
+                    },
+                    "uuid": "b5a689a3-33f9-49ee-850f-fe049f7337f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R1",
+                    "pos": {
+                        "x": 104.0055,
+                        "y": 60.463927
+                    },
+                    "uuid": "b5a689a3-33f9-49ee-850f-fe049f7337f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U1",
+                    "pos": {
+                        "x": 103.6055,
+                        "y": 63.463927
+                    },
+                    "uuid": "7f3754a8-dd70-49f6-97ed-73be95990c65"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U1",
+                    "pos": {
+                        "x": 103.6055,
+                        "y": 63.463927
+                    },
+                    "uuid": "7f3754a8-dd70-49f6-97ed-73be95990c65"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of U1 (HD3SS3220R)",
+                    "pos": {
+                        "x": 102.6055,
+                        "y": 68.063927
+                    },
+                    "uuid": "f2465446-f3ab-4dad-b179-ff4fa309bdee"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of U1 (HD3SS3220R)",
+                    "pos": {
+                        "x": 102.6055,
+                        "y": 68.063927
+                    },
+                    "uuid": "f2465446-f3ab-4dad-b179-ff4fa309bdee"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R2",
+                    "pos": {
+                        "x": 94.2055,
+                        "y": 64.163927
+                    },
+                    "uuid": "3b1511b0-3240-424d-8ca6-0eef1ca823f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R2",
+                    "pos": {
+                        "x": 94.2055,
+                        "y": 64.163927
+                    },
+                    "uuid": "3b1511b0-3240-424d-8ca6-0eef1ca823f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of TP1",
+                    "pos": {
+                        "x": 115.4055,
+                        "y": 78.163927
+                    },
+                    "uuid": "2ede53b8-0590-4aca-a2c8-8295fb9a3b1c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of TP1",
+                    "pos": {
+                        "x": 115.4055,
+                        "y": 78.163927
+                    },
+                    "uuid": "2ede53b8-0590-4aca-a2c8-8295fb9a3b1c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.1500 mm; actual 0.0938 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R4",
+                    "pos": {
+                        "x": 106.2055,
+                        "y": 58.463927
+                    },
+                    "uuid": "2df1b268-3912-455a-b399-14f5085ca7bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R4",
+                    "pos": {
+                        "x": 106.2055,
+                        "y": 58.463927
+                    },
+                    "uuid": "2df1b268-3912-455a-b399-14f5085ca7bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "The footprint library 'UWReality_Labs' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint SW1",
+                    "pos": {
+                        "x": 113.8055,
+                        "y": 53.863927
+                    },
+                    "uuid": "70ce1755-27e5-498d-b447-4a57fd953a9a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'Interface_USB' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 94.9655,
+                        "y": 54.463927
+                    },
+                    "uuid": "b2c37093-83b5-41a1-a82e-1bff4506a207"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'Interface_USB' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 101.855589,
+                        "y": 47.413889
+                    },
+                    "uuid": "b4fa874e-bc5e-4685-93c9-f44586aadbf0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'Interface_USB' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 102.3355,
+                        "y": 83.548927
+                    },
+                    "uuid": "b51c0ea5-9876-4650-8335-3b511c536720"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'Interface_USB' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 101.6055,
+                        "y": 65.663927
+                    },
+                    "uuid": "d3bb1cc1-4371-4a96-a702-0960a77fde99"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Padstack is questionable (PTH pad hole leaves no copper)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of J1",
+                    "pos": {
+                        "x": 98.9355,
+                        "y": 82.958927
+                    },
+                    "uuid": "48f454eb-280d-4fcb-9124-6ab80a10b9ad"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (PTH pad hole leaves no copper)",
+            "items": [
+                {
+                    "description": "PTH pad [<no net>] of J1",
+                    "pos": {
+                        "x": 105.7355,
+                        "y": 82.958927
+                    },
+                    "uuid": "7c5f8a96-f81a-47d1-bd7a-a644406c012b"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 94.9055,
+                        "y": 39.96393
+                    },
+                    "uuid": "0b796c4e-23a5-4a50-ae4a-8f0241781905"
+                },
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 94.855564,
+                        "y": 45.332761
+                    },
+                    "uuid": "53043fb6-57ed-4efa-b83a-391ae285db63"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 94.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "60752b38-935e-414c-92d9-3ea03de4eafc"
+                },
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.855614,
+                        "y": 33.763876
+                    },
+                    "uuid": "cda36d95-e33e-463a-b425-e1f45f951d9f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 94.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "60752b38-935e-414c-92d9-3ea03de4eafc"
+                },
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.405576,
+                        "y": 34.303907
+                    },
+                    "uuid": "7a435a47-1ce6-4eb2-93c6-d9ab73aa0856"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 113.9555,
+                        "y": 88.263927
+                    },
+                    "uuid": "071ab3ab-f802-4e6e-a096-11dc9294d24e"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 98.0155,
+                        "y": 88.858927
+                    },
+                    "uuid": "5178bf59-79d3-45c8-97ce-dd0ab9091d59"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 113.9555,
+                        "y": 88.263927
+                    },
+                    "uuid": "071ab3ab-f802-4e6e-a096-11dc9294d24e"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.6555,
+                        "y": 88.858927
+                    },
+                    "uuid": "1c5c62fd-fb36-4d3e-9f1f-df67b0233fc3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [VBUS] on F.Cu (Signal) - B.Cu (Signal)",
+                    "pos": {
+                        "x": 110.6055,
+                        "y": 45.263927
+                    },
+                    "uuid": "c9d95ef9-49b6-4a4b-b5dd-f38da86ba8c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/MODE] on F.Cu (Signal), length 0.0950 mm",
+                    "pos": {
+                        "x": 106.3905,
+                        "y": 58.463927
+                    },
+                    "uuid": "66b19ac9-3a40-4a78-94fb-6b66ff45e1a7"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone 'stitch_zone_0' [GND] on F.Cu (Signal), B.Cu (Signal) and In1.Cu (GND), priority 1",
+                    "pos": {
+                        "x": 89.9055,
+                        "y": 34.963927
+                    },
+                    "uuid": "85f4b2a4-8b3a-4d2b-b97b-a2ff4214ffc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        }
+    ]
+}

@@ -1,0 +1,564 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-08-06T17:19:55",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/6d9920bc-ffe5-49c6-a5b8-424c0488cfb7",
+            "violations": [
+                {
+                    "description": "The current configuration does not include the footprint library 'Interface_USB'",
+                    "items": [
+                        {
+                            "description": "Symbol U5 [HT7533-1_C14289]",
+                            "pos": {
+                                "x": 0.4318,
+                                "y": 0.3556
+                            },
+                            "uuid": "9b7c325d-f1c2-4a94-892b-90291d91f349"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'HT7533-1_C14289' doesn't match copy in library 'Regulator_Linear'",
+                    "items": [
+                        {
+                            "description": "Symbol U5 [HT7533-1_C14289]",
+                            "pos": {
+                                "x": 0.4318,
+                                "y": 0.3556
+                            },
+                            "uuid": "9b7c325d-f1c2-4a94-892b-90291d91f349"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'UWReality_Labs'",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 [DSHP06TSGER_C3293146]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.4859
+                            },
+                            "uuid": "5902b077-90e5-4360-9dc1-7680008b5bcc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'UWRealityLabs'",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 [DSHP06TSGER_C3293146]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.4859
+                            },
+                            "uuid": "5902b077-90e5-4360-9dc1-7680008b5bcc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Both V_OUT and  are attached to the same items; V_OUT will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR027 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.8763,
+                                "y": 0.381
+                            },
+                            "uuid": "1d235319-1ef9-4918-a113-0456d20a9e30"
+                        },
+                        {
+                            "description": "Label ''",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 0.3048
+                            },
+                            "uuid": "5023b831-0007-4195-b34b-27f0eaa8d183"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Symbol 'TPD4EUSB30' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [TPD4EUSB30]",
+                            "pos": {
+                                "x": 1.0414,
+                                "y": 1.3081
+                            },
+                            "uuid": "32592e88-6c8c-4981-aac3-8ac246e7c259"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.3175 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.5461
+                            },
+                            "uuid": "4db0438d-dbbd-4993-bcfd-bbff1d94e5c7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.3175 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.5715
+                            },
+                            "uuid": "e92526bd-e5c5-488b-a9c6-febe1f4891b9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.3175 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.5969
+                            },
+                            "uuid": "1dc05d8e-988f-4ff8-becb-051bc80dc0d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1905 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.6223
+                            },
+                            "uuid": "4ee08021-0406-4251-9f2d-63c31dfc0b04"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.3175 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.6477
+                            },
+                            "uuid": "94965b19-6084-4ce6-ac7b-93020e592c65"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.3175 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.6985
+                            },
+                            "uuid": "180dee0f-5bc0-4c9a-ad53-5dc64d314663"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.3175 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.7239
+                            },
+                            "uuid": "c41091e5-7420-408c-bfc0-2a6cc5dd55c0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.3175 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.7747
+                            },
+                            "uuid": "21e3b051-472d-41e8-8cdb-86fb1031fc53"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.3175 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.8001
+                            },
+                            "uuid": "08bf94eb-b770-42f0-b433-ac489c03f713"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.3175 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.8509
+                            },
+                            "uuid": "810a18ff-971b-46e3-991c-0602fe0eada4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.3175 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.8763
+                            },
+                            "uuid": "f2b11cd2-4fc7-482b-a3ef-61d13d643914"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Symbol 'TestPoint' not found in symbol library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol TP1 [TestPoint]",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.2921
+                            },
+                            "uuid": "0459118c-a9ef-469d-9d88-00ac28d51527"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'TestPoint' not found in symbol library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol TP3 [TestPoint]",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.3937
+                            },
+                            "uuid": "7223de08-9a2f-421a-addc-d2952995d35d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'TestPoint' not found in symbol library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol TP2 [TestPoint]",
+                            "pos": {
+                                "x": 1.27,
+                                "y": 0.6223
+                            },
+                            "uuid": "6fa9b707-868c-4ba3-a5c9-0a8e7d7c4a0c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Interface_USB'",
+                    "items": [
+                        {
+                            "description": "Symbol J2 [U-A-39SS-Y-1]",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 1.3462
+                            },
+                            "uuid": "1a20f38c-1f0e-4af0-b56e-7d17b1765db6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'U-A-39SS-Y-1' doesn't match copy in library 'Connector_USB-custom'",
+                    "items": [
+                        {
+                            "description": "Symbol J2 [U-A-39SS-Y-1]",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 1.3462
+                            },
+                            "uuid": "1a20f38c-1f0e-4af0-b56e-7d17b1765db6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Interface_USB'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [HD3SS3220RNHR]",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 0.5715
+                            },
+                            "uuid": "cd199048-35ae-46a3-b3f1-56b83dd72864"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'HD3SS3220RNHR' doesn't match copy in library 'Interface_USB'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [HD3SS3220RNHR]",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 0.5715
+                            },
+                            "uuid": "cd199048-35ae-46a3-b3f1-56b83dd72864"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'TestPoint' not found in symbol library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol TP6 [TestPoint]",
+                            "pos": {
+                                "x": 1.9558,
+                                "y": 0.3175
+                            },
+                            "uuid": "922ee58c-9547-48dd-a01c-36f26e11eb8a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'TestPoint' not found in symbol library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol TP7 [TestPoint]",
+                            "pos": {
+                                "x": 1.9812,
+                                "y": 0.3175
+                            },
+                            "uuid": "37a6e1fa-b048-4317-aad4-522b2e4c5e51"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'TestPoint' not found in symbol library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol TP4 [TestPoint]",
+                            "pos": {
+                                "x": 2.0955,
+                                "y": 0.9017
+                            },
+                            "uuid": "87263f80-a338-419f-9f42-4ee0cfb56b60"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'TestPoint' not found in symbol library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol TP5 [TestPoint]",
+                            "pos": {
+                                "x": 2.0955,
+                                "y": 0.9398
+                            },
+                            "uuid": "a7221be2-c76f-4182-b586-ccb290848cbc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'TPD4EUSB30' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [TPD4EUSB30]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 1.2954
+                            },
+                            "uuid": "c079cc4a-b531-4868-9815-2bfffaacbe1d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.3876,
+                                "y": 0.762
+                            },
+                            "uuid": "8ab2c396-1b84-4810-9b69-b60e6e88d2de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Interface_USB'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [TYPEC-324G-BCP24]",
+                            "pos": {
+                                "x": 2.5273,
+                                "y": 0.635
+                            },
+                            "uuid": "e1d1b889-46d8-4944-a2c0-088ae451b1c4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'UWRealityLabs'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [TYPEC-324G-BCP24]",
+                            "pos": {
+                                "x": 2.5273,
+                                "y": 0.635
+                            },
+                            "uuid": "e1d1b889-46d8-4944-a2c0-088ae451b1c4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'TPD4EUSB30' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [TPD4EUSB30]",
+                            "pos": {
+                                "x": 2.5527,
+                                "y": 1.2954
+                            },
+                            "uuid": "b294be76-2394-463c-a602-bf24be0be46b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol J1 Pin B12 [GND, Unspecified, Line]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 0.4826
+                            },
+                            "uuid": "69e6be73-2947-40b0-9f28-1bcaaae91b99"
+                        },
+                        {
+                            "description": "Symbol J1 Pin B1 [GND, Passive, Line]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 0.762
+                            },
+                            "uuid": "01840e50-7bdd-4145-bdd2-e67e6be202a2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        }
+    ],
+    "source": "HD3SS3220-breakout.kicad_sch"
+}

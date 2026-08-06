@@ -1,0 +1,1123 @@
+{
+  "analyzer_type": "gerber",
+  "schema_version": "1.3.0",
+  "directory": "Production/",
+  "generator": "Pcbnew 10.0.5",
+  "layer_count": 4,
+  "board_dimensions": {
+    "width_mm": 29.1,
+    "height_mm": 53.35,
+    "area_mm2": 1552.5,
+    "source": "gbrjob"
+  },
+  "statistics": {
+    "gerber_files": 18,
+    "drill_files": 2,
+    "total_holes": 186,
+    "total_flashes": 1232,
+    "total_draws": 34142
+  },
+  "completeness": {
+    "found_layers": [
+      "B.Cu",
+      "B.Mask",
+      "B.Paste",
+      "B.SilkS",
+      "Edge.Cuts",
+      "F.Cu",
+      "F.Mask",
+      "F.Paste",
+      "F.SilkS",
+      "In1.Cu",
+      "In2.Cu"
+    ],
+    "expected_layers": [
+      "B.Cu",
+      "B.Mask",
+      "B.Paste",
+      "B.SilkS",
+      "Edge.Cuts",
+      "F.Cu",
+      "F.Mask",
+      "F.Paste",
+      "F.SilkS",
+      "In1.Cu",
+      "In2.Cu"
+    ],
+    "missing": [],
+    "extra": [],
+    "has_pth_drill": true,
+    "has_npth_drill": true,
+    "complete": true,
+    "source": "gbrjob"
+  },
+  "alignment": {
+    "aligned": true,
+    "issues": [],
+    "layer_extents": {
+      "B.Cu": {
+        "width": 28.049,
+        "height": 52.299
+      },
+      "B.Mask": {
+        "width": 22.4,
+        "height": 40.695
+      },
+      "B.Paste": {
+        "width": 0,
+        "height": 0
+      },
+      "B.SilkS": {
+        "width": 0,
+        "height": 0
+      },
+      "Edge.Cuts": {
+        "width": 29.05,
+        "height": 53.3
+      },
+      "F.Cu": {
+        "width": 28.049,
+        "height": 52.299
+      },
+      "F.Mask": {
+        "width": 25.89,
+        "height": 40.695
+      },
+      "F.Paste": {
+        "width": 25.89,
+        "height": 35.225
+      },
+      "F.SilkS": {
+        "width": 27.288,
+        "height": 55.095
+      },
+      "In1.Cu": {
+        "width": 28.049,
+        "height": 52.299
+      },
+      "In2.Cu": {
+        "width": 28.049,
+        "height": 52.299
+      },
+      "drill_NPTH": {
+        "width": 5.099,
+        "height": 0.0
+      },
+      "drill_PTH": {
+        "width": 25.399,
+        "height": 51.0
+      }
+    }
+  },
+  "drill_classification": {
+    "vias": {
+      "count": 155,
+      "tools": [
+        {
+          "diameter_mm": 0.3,
+          "count": 133
+        },
+        {
+          "diameter_mm": 0.4,
+          "count": 22
+        }
+      ]
+    },
+    "component_holes": {
+      "count": 31,
+      "tools": [
+        {
+          "diameter_mm": 0.3,
+          "count": 6
+        },
+        {
+          "diameter_mm": 0.55,
+          "count": 2
+        },
+        {
+          "diameter_mm": 0.6,
+          "count": 6
+        },
+        {
+          "diameter_mm": 1.0,
+          "count": 15
+        },
+        {
+          "diameter_mm": 1.3,
+          "count": 2,
+          "type": "NPTH"
+        }
+      ]
+    },
+    "mounting_holes": {
+      "count": 0,
+      "tools": []
+    },
+    "classification_method": "x2_attributes"
+  },
+  "pad_summary": {
+    "smd_apertures": 144,
+    "via_apertures": 620,
+    "heatsink_apertures": 0,
+    "tht_holes": 31,
+    "smd_source": "x2_aperture_function",
+    "smd_ratio": 0.82
+  },
+  "trace_widths": {
+    "unique_widths_mm": [
+      0.1527,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "min_trace_mm": 0.1527,
+    "max_trace_mm": 0.3,
+    "width_count": 4,
+    "min_feature_mm": 0.15
+  },
+  "component_analysis": {
+    "total_unique": 34,
+    "front_side": 34,
+    "back_side": 0,
+    "component_refs": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "DIR_LED2",
+      "G\\u002A\\u002A\\u002A",
+      "J1",
+      "J2",
+      "J3",
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8",
+      "R9",
+      "SW1",
+      "TP1",
+      "TP2",
+      "TP3",
+      "TP4",
+      "TP5",
+      "TP6",
+      "TP7",
+      "U1",
+      "U2",
+      "U3",
+      "U4",
+      "U5",
+      "VBUS_LED2"
+    ],
+    "has_x2_data": true,
+    "pads_per_component": {
+      "C1": 2,
+      "C2": 2,
+      "C3": 2,
+      "C4": 2,
+      "C5": 2,
+      "C6": 2,
+      "DIR_LED2": 2,
+      "J1": 32,
+      "J2": 13,
+      "J3": 8,
+      "R1": 2,
+      "R2": 2,
+      "R3": 2,
+      "R4": 2,
+      "R5": 2,
+      "R6": 2,
+      "R7": 2,
+      "R8": 2,
+      "R9": 2,
+      "SW1": 12,
+      "TP1": 1,
+      "TP2": 1,
+      "TP3": 1,
+      "TP4": 1,
+      "TP5": 1,
+      "TP6": 1,
+      "TP7": 1,
+      "U1": 37,
+      "U2": 10,
+      "U3": 10,
+      "U4": 10,
+      "U5": 3,
+      "VBUS_LED2": 2
+    },
+    "total_pads": 176
+  },
+  "net_analysis": {
+    "total_unique": 39,
+    "named_nets": 32,
+    "unnamed_nets": 7,
+    "power_nets": [
+      "GND",
+      "VBUS"
+    ],
+    "signal_nets": [
+      "",
+      "/ADDR",
+      "/CC1",
+      "/CC2",
+      "/D+",
+      "/D-",
+      "/DIR",
+      "/ENn_CC",
+      "/ENn_Mux",
+      "/ID",
+      "/INT_N",
+      "/MODE",
+      "/PORT",
+      "/RX1+",
+      "/RX1-",
+      "/RX2+",
+      "/RX2-",
+      "/SCL",
+      "/SDA",
+      "/SSRX+",
+      "/SSRX-",
+      "/SSTX+",
+      "/SSTX-",
+      "/TX1+",
+      "/TX1-",
+      "/TX2+",
+      "/TX2-",
+      "/VBUS_DET",
+      "/VCONN",
+      "V_OUT"
+    ],
+    "total_pins": 165
+  },
+  "gerbers": [
+    {
+      "filename": "HD3SS3220-breakout-B_Adhesive.gba",
+      "layer_type": "unknown",
+      "units": "mm",
+      "aperture_count": 0,
+      "flash_count": 0,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Glue,Bot",
+        "FilePolarity": "Positive"
+      }
+    },
+    {
+      "filename": "HD3SS3220-breakout-B_Courtyard.gbr",
+      "layer_type": "unknown",
+      "units": "mm",
+      "aperture_count": 0,
+      "flash_count": 0,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Other,User"
+      }
+    },
+    {
+      "filename": "HD3SS3220-breakout-B_Cu (Signal).gbl",
+      "layer_type": "B.Cu",
+      "units": "mm",
+      "aperture_count": 14,
+      "flash_count": 184,
+      "draw_count": 3538,
+      "region_count": 1,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Copper,L4,Bot",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "ComponentPad": 8,
+          "ViaPad": 3,
+          "Conductor": 3
+        },
+        "by_function_flashes": {
+          "ComponentPad": 29,
+          "ViaPad": 155,
+          "Conductor": 0
+        },
+        "conductor_widths_mm": [
+          0.1527,
+          0.2,
+          0.3
+        ],
+        "min_feature_mm": 0.1527
+      },
+      "x2_component_count": 0,
+      "x2_net_count": 21,
+      "x2_pin_count": 21
+    },
+    {
+      "filename": "HD3SS3220-breakout-B_Fab.gbr",
+      "layer_type": "unknown",
+      "units": "mm",
+      "aperture_count": 0,
+      "flash_count": 0,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "AssemblyDrawing,Bot"
+      }
+    },
+    {
+      "filename": "HD3SS3220-breakout-B_Mask.gbs",
+      "layer_type": "B.Mask",
+      "units": "mm",
+      "aperture_count": 9,
+      "flash_count": 31,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Soldermask,Bot",
+        "FilePolarity": "Negative"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.55
+      },
+      "x2_component_count": 11,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "HD3SS3220-breakout-B_Paste.gbp",
+      "layer_type": "B.Paste",
+      "units": "mm",
+      "aperture_count": 0,
+      "flash_count": 0,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Paste,Bot",
+        "FilePolarity": "Positive"
+      }
+    },
+    {
+      "filename": "HD3SS3220-breakout-B_Silkscreen.gbo",
+      "layer_type": "B.SilkS",
+      "units": "mm",
+      "aperture_count": 0,
+      "flash_count": 0,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Legend,Bot",
+        "FilePolarity": "Positive"
+      }
+    },
+    {
+      "filename": "HD3SS3220-breakout-Edge_Cuts.gm1",
+      "layer_type": "Edge.Cuts",
+      "units": "mm",
+      "aperture_count": 1,
+      "flash_count": 0,
+      "draw_count": 10,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Profile,NP"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "Profile": 1
+        },
+        "by_function_flashes": {
+          "Profile": 0
+        },
+        "min_feature_mm": 0.05
+      }
+    },
+    {
+      "filename": "HD3SS3220-breakout-F_Cu (Signal).gtl",
+      "layer_type": "F.Cu",
+      "units": "mm",
+      "aperture_count": 37,
+      "flash_count": 329,
+      "draw_count": 7063,
+      "region_count": 32,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Copper,L1,Top",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "ComponentPad": 8,
+          "SMDPad": 21,
+          "ViaPad": 3,
+          "Conductor": 4
+        },
+        "by_function_flashes": {
+          "ComponentPad": 29,
+          "SMDPad": 144,
+          "ViaPad": 155,
+          "Conductor": 0
+        },
+        "conductor_widths_mm": [
+          0.1527,
+          0.2,
+          0.25,
+          0.3
+        ],
+        "min_feature_mm": 0.15
+      },
+      "x2_component_count": 0,
+      "x2_net_count": 39,
+      "x2_pin_count": 165
+    },
+    {
+      "filename": "HD3SS3220-breakout-F_Mask.gts",
+      "layer_type": "F.Mask",
+      "units": "mm",
+      "aperture_count": 31,
+      "flash_count": 176,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Soldermask,Top",
+        "FilePolarity": "Negative"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.15
+      },
+      "x2_component_count": 33,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "HD3SS3220-breakout-F_Paste.gtp",
+      "layer_type": "F.Paste",
+      "units": "mm",
+      "aperture_count": 23,
+      "flash_count": 144,
+      "draw_count": 72,
+      "region_count": 2,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Paste,Top",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.1
+      },
+      "x2_component_count": 25,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "HD3SS3220-breakout-F_Silkscreen.gto",
+      "layer_type": "F.SilkS",
+      "units": "mm",
+      "aperture_count": 10,
+      "flash_count": 0,
+      "draw_count": 3345,
+      "region_count": 18,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Legend,Top",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.06
+      },
+      "x2_component_count": 34,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "HD3SS3220-breakout-In1_Cu (GND).g1",
+      "layer_type": "In1.Cu",
+      "units": "mm",
+      "aperture_count": 11,
+      "flash_count": 184,
+      "draw_count": 3486,
+      "region_count": 1,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Copper,L2,Inr",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "ComponentPad": 8,
+          "ViaPad": 3
+        },
+        "by_function_flashes": {
+          "ComponentPad": 29,
+          "ViaPad": 155
+        },
+        "min_feature_mm": 0.55
+      },
+      "x2_component_count": 10,
+      "x2_net_count": 21,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "HD3SS3220-breakout-In2_Cu (Power).g2",
+      "layer_type": "In2.Cu",
+      "units": "mm",
+      "aperture_count": 11,
+      "flash_count": 184,
+      "draw_count": 9523,
+      "region_count": 3,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Copper,L3,Inr",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "ComponentPad": 8,
+          "ViaPad": 3
+        },
+        "by_function_flashes": {
+          "ComponentPad": 29,
+          "ViaPad": 155
+        },
+        "min_feature_mm": 0.55
+      },
+      "x2_component_count": 10,
+      "x2_net_count": 21,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "HD3SS3220-breakout-User_1.gbr",
+      "layer_type": "unknown",
+      "units": "mm",
+      "aperture_count": 0,
+      "flash_count": 0,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Other,User"
+      }
+    },
+    {
+      "filename": "HD3SS3220-breakout-User_3.gbr",
+      "layer_type": "unknown",
+      "units": "mm",
+      "aperture_count": 0,
+      "flash_count": 0,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Other,User"
+      }
+    },
+    {
+      "filename": "HD3SS3220-breakout-User_Drawings.gbr",
+      "layer_type": "unknown",
+      "units": "mm",
+      "aperture_count": 2,
+      "flash_count": 0,
+      "draw_count": 7105,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "OtherDrawing,Comment"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.125
+      }
+    },
+    {
+      "filename": "HD3SS3220-breakout-User_Eco1.gbr",
+      "layer_type": "unknown",
+      "units": "mm",
+      "aperture_count": 0,
+      "flash_count": 0,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "ProjectId": "HD3SS3220-breakout,48443353-5333-4323-9230-2d627265616b,R1",
+        "SameCoordinates": "Original",
+        "FileFunction": "Other,ECO1"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "filename": "HD3SS3220-breakout-NPTH.drl",
+      "type": "NPTH",
+      "units": "mm",
+      "hole_count": 2,
+      "tools": {
+        "T1": {
+          "diameter_mm": 1.3,
+          "hole_count": 2,
+          "aper_function": "NonPlated,NPTH,ComponentDrill"
+        }
+      },
+      "layer_span": [
+        1,
+        4
+      ],
+      "x2_attributes": {
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "GenerationSoftware": "Kicad,Pcbnew,10.0.5",
+        "FileFunction": "NonPlated,1,4,NPTH"
+      }
+    },
+    {
+      "filename": "HD3SS3220-breakout-PTH.drl",
+      "type": "PTH",
+      "units": "mm",
+      "hole_count": 184,
+      "tools": {
+        "T1": {
+          "diameter_mm": 0.3,
+          "hole_count": 133,
+          "aper_function": "Plated,PTH,ViaDrill"
+        },
+        "T2": {
+          "diameter_mm": 0.3,
+          "hole_count": 6,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        },
+        "T3": {
+          "diameter_mm": 0.4,
+          "hole_count": 22,
+          "aper_function": "Plated,PTH,ViaDrill"
+        },
+        "T4": {
+          "diameter_mm": 0.55,
+          "hole_count": 2,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        },
+        "T5": {
+          "diameter_mm": 0.6,
+          "hole_count": 6,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        },
+        "T6": {
+          "diameter_mm": 1.0,
+          "hole_count": 15,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        }
+      },
+      "layer_span": [
+        1,
+        4
+      ],
+      "x2_attributes": {
+        "CreationDate": "2026-08-06T17:17:46-04:00",
+        "GenerationSoftware": "Kicad,Pcbnew,10.0.5",
+        "FileFunction": "Plated,1,4,PTH"
+      }
+    }
+  ],
+  "drill_tools": {
+    "1.3mm": {
+      "diameter_mm": 1.3,
+      "count": 2,
+      "type": "NPTH"
+    },
+    "0.3mm": {
+      "diameter_mm": 0.3,
+      "count": 139,
+      "type": "PTH"
+    },
+    "0.4mm": {
+      "diameter_mm": 0.4,
+      "count": 22,
+      "type": "PTH"
+    },
+    "0.55mm": {
+      "diameter_mm": 0.55,
+      "count": 2,
+      "type": "PTH"
+    },
+    "0.6mm": {
+      "diameter_mm": 0.6,
+      "count": 6,
+      "type": "PTH"
+    },
+    "1.0mm": {
+      "diameter_mm": 1.0,
+      "count": 15,
+      "type": "PTH"
+    }
+  },
+  "job_file": {
+    "generator": "Pcbnew 10.0.5",
+    "vendor": "KiCad",
+    "creation_date": "2026-08-06T17:17:46-04:00",
+    "board_width_mm": 29.1,
+    "board_height_mm": 53.35,
+    "layer_count": 4,
+    "board_thickness_mm": 1.5842,
+    "finish": "None",
+    "project_name": "HD3SS3220-breakout",
+    "design_rules": [
+      {
+        "layers": "Outer",
+        "PadToPad": 0.127,
+        "PadToTrack": 0.127,
+        "TrackToTrack": 0.127,
+        "MinLineWidth": 0.1527,
+        "TrackToRegion": 0.127,
+        "RegionToRegion": 0.127
+      },
+      {
+        "layers": "Inner",
+        "PadToPad": 0.127,
+        "PadToTrack": 0.127,
+        "TrackToTrack": 0.127,
+        "TrackToRegion": 0.127,
+        "RegionToRegion": 0.127
+      }
+    ],
+    "expected_files": [
+      {
+        "path": "HD3SS3220-breakout-F_Cu (Signal).gtl",
+        "function": "Copper,L1,Top",
+        "polarity": "Positive"
+      },
+      {
+        "path": "HD3SS3220-breakout-In1_Cu (GND).g1",
+        "function": "Copper,L2,Inr",
+        "polarity": "Positive"
+      },
+      {
+        "path": "HD3SS3220-breakout-In2_Cu (Power).g2",
+        "function": "Copper,L3,Inr",
+        "polarity": "Positive"
+      },
+      {
+        "path": "HD3SS3220-breakout-B_Cu (Signal).gbl",
+        "function": "Copper,L4,Bot",
+        "polarity": "Positive"
+      },
+      {
+        "path": "HD3SS3220-breakout-B_Adhesive.gba",
+        "function": "Glue,Bot",
+        "polarity": "Positive"
+      },
+      {
+        "path": "HD3SS3220-breakout-F_Paste.gtp",
+        "function": "SolderPaste,Top",
+        "polarity": "Positive"
+      },
+      {
+        "path": "HD3SS3220-breakout-B_Paste.gbp",
+        "function": "SolderPaste,Bot",
+        "polarity": "Positive"
+      },
+      {
+        "path": "HD3SS3220-breakout-F_Silkscreen.gto",
+        "function": "Legend,Top",
+        "polarity": "Positive"
+      },
+      {
+        "path": "HD3SS3220-breakout-B_Silkscreen.gbo",
+        "function": "Legend,Bot",
+        "polarity": "Positive"
+      },
+      {
+        "path": "HD3SS3220-breakout-F_Mask.gts",
+        "function": "SolderMask,Top",
+        "polarity": "Negative"
+      },
+      {
+        "path": "HD3SS3220-breakout-B_Mask.gbs",
+        "function": "SolderMask,Bot",
+        "polarity": "Negative"
+      },
+      {
+        "path": "HD3SS3220-breakout-User_Drawings.gbr",
+        "function": "Other,User",
+        "polarity": "Positive"
+      },
+      {
+        "path": "HD3SS3220-breakout-User_Eco1.gbr",
+        "function": "Other,User",
+        "polarity": "Positive"
+      },
+      {
+        "path": "HD3SS3220-breakout-Edge_Cuts.gm1",
+        "function": "Profile",
+        "polarity": "Positive"
+      },
+      {
+        "path": "HD3SS3220-breakout-B_Fab.gbr",
+        "function": "AssemblyDrawing,Bot",
+        "polarity": "Positive"
+      },
+      {
+        "path": "HD3SS3220-breakout-User_1.gbr",
+        "function": "Other,User",
+        "polarity": "Positive"
+      },
+      {
+        "path": "HD3SS3220-breakout-User_3.gbr",
+        "function": "Other,User",
+        "polarity": "Positive"
+      }
+    ],
+    "stackup": [
+      {
+        "type": "Legend",
+        "name": "Top Silk Screen"
+      },
+      {
+        "type": "SolderPaste",
+        "name": "Top Solder Paste"
+      },
+      {
+        "type": "SolderMask",
+        "name": "Top Solder Mask",
+        "thickness_mm": 0.01
+      },
+      {
+        "type": "Copper",
+        "name": "F.Cu (Signal)",
+        "thickness_mm": 0.035
+      },
+      {
+        "type": "Dielectric",
+        "name": "F.Cu (Signal)/In1.Cu (GND)",
+        "thickness_mm": 0.0994,
+        "material": "3313"
+      },
+      {
+        "type": "Copper",
+        "name": "In1.Cu (GND)",
+        "thickness_mm": 0.0152
+      },
+      {
+        "type": "Dielectric",
+        "name": "In1.Cu (GND)/In2.Cu (Power)",
+        "thickness_mm": 1.265,
+        "material": "NP-155F"
+      },
+      {
+        "type": "Copper",
+        "name": "In2.Cu (Power)",
+        "thickness_mm": 0.0152
+      },
+      {
+        "type": "Dielectric",
+        "name": "In2.Cu (Power)/B.Cu (Signal)",
+        "thickness_mm": 0.0994,
+        "material": "3313"
+      },
+      {
+        "type": "Copper",
+        "name": "B.Cu (Signal)",
+        "thickness_mm": 0.035
+      },
+      {
+        "type": "SolderMask",
+        "name": "Bottom Solder Mask",
+        "thickness_mm": 0.01
+      },
+      {
+        "type": "SolderPaste",
+        "name": "Bottom Solder Paste"
+      },
+      {
+        "type": "Legend",
+        "name": "Bottom Silk Screen"
+      }
+    ]
+  },
+  "zip_archives": [
+    {
+      "filename": "HD3SS3220-gerbers.zip",
+      "size_bytes": 252608,
+      "modified": "2026-08-06T21:19:29Z",
+      "total_files": 19,
+      "gerber_files": 17,
+      "drill_files": 2,
+      "other_files": 0,
+      "newest_member_date": "2026-08-06T17:17:46Z",
+      "vs_loose_files": "loose_files_newer",
+      "age_delta_hours": 4.0
+    }
+  ],
+  "findings": [
+    {
+      "detector": "analyze_gerbers",
+      "rule_id": "GR-004",
+      "category": "gerber_completeness",
+      "severity": "warning",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "summary": "F paste layer: 144 flashes vs 329 copper (44%)",
+      "description": "F-side paste layer has significantly fewer flashes (144) than copper layer (329). This may indicate missing solder paste apertures.",
+      "components": [],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Check solder paste aperture generation \u2014 missing apertures cause assembly defects.",
+      "report_context": {
+        "section": "Gerber Completeness",
+        "impact": "Assembly solder joint quality",
+        "standard_ref": ""
+      },
+      "stages": [
+        "pre_fab"
+      ]
+    }
+  ],
+  "summary": {
+    "total_findings": 1,
+    "by_severity": {
+      "error": 0,
+      "warning": 1,
+      "info": 0
+    }
+  },
+  "trust_summary": {
+    "total_findings": 1,
+    "trust_level": "low",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 1,
+      "datasheet-backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 1,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 0.0
+  },
+  "audience_summary": {
+    "designer": {
+      "total_findings": 1,
+      "by_severity": {
+        "error": 0,
+        "warning": 1,
+        "info": 0
+      },
+      "by_category": {
+        "gerber_completeness": 1
+      },
+      "top_issues": [
+        {
+          "detector": "analyze_gerbers",
+          "rule_id": "GR-004",
+          "category": "gerber_completeness",
+          "severity": "warning",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "summary": "F paste layer: 144 flashes vs 329 copper (44%)",
+          "description": "F-side paste layer has significantly fewer flashes (144) than copper layer (329). This may indicate missing solder paste apertures.",
+          "components": [],
+          "nets": [],
+          "pins": [],
+          "recommendation": "Check solder paste aperture generation \u2014 missing apertures cause assembly defects.",
+          "report_context": {
+            "section": "Gerber Completeness",
+            "impact": "Assembly solder joint quality",
+            "standard_ref": ""
+          },
+          "stages": [
+            "pre_fab"
+          ]
+        }
+      ]
+    },
+    "reviewer": {
+      "total_findings": 1,
+      "by_category": {
+        "gerber_completeness": 1
+      },
+      "top_issues": [
+        {
+          "rule_id": "GR-004",
+          "severity": "warning",
+          "summary": "F paste layer: 144 flashes vs 329 copper (44%)",
+          "recommendation": "Check solder paste aperture generation \u2014 missing apertures cause assembly defects.",
+          "category": "gerber_completeness"
+        }
+      ]
+    },
+    "manager": {
+      "risk_level": "low",
+      "blocker_count": 0,
+      "warning_count": 1,
+      "stage_readiness": {
+        "schematic": "pass",
+        "layout": "pass",
+        "pre_fab": "needs_review",
+        "bring_up": "pass"
+      },
+      "one_liner": "1 warning across 1 category."
+    }
+  }
+}
