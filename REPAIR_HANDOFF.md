@@ -1,6 +1,9 @@
-# vincent-repair — repair branch handoff
+# repair branch handoff
 
-**Branch:** `vincent-repair` (local only, NOT pushed). Base: upstream `b84c83a` "Footprint and symbol fix".
+> **⚠ DO NOT fabricate or merge from this branch.** It is an unreviewed repair
+> proposal for dinhv to review commit-by-commit — hence the branch name.
+
+**Branch:** `DO-NOT-USE-vincent-repair-unreviewed` (local only, NOT pushed). Base: upstream `b84c83a` "Footprint and symbol fix".
 **Status: all four r5 mechanical blockers resolved. DRC 0 errors / parity clean / 0 unconnected. Production/ regenerated as one consistent set.**
 Context: `DESIGN_REVIEW-r5-council.md` (incl. the b84c83a addendum).
 
@@ -10,6 +13,8 @@ Context: `DESIGN_REVIEW-r5-council.md` (incl. the b84c83a addendum).
 2. `d0d5537` **TX1/TX2 reference fix** — the B.Cu via dives are polarity crossovers (U1 pad order is inverted vs J1 A2/A3+B2/B3), so an F.Cu-only reroute is topologically impossible (r4's suggestion was wrong). Fix: two GND zones on In2 (priority 2) under the crossover regions + 7 GND return vias (0.6/0.3) adjacent to the 8 signal vias. B.Cu under-passes now reference GND end-to-end (verified point-in-polygon against the saved fills).
 3. `6df6a20` **J1 hole-clearance waiver** — the 9 DRC errors were J1's own plated shell-peg holes 0.144 mm from its own GND shield pads (manufacturer land pattern; both features are the grounded shell). Rule scoped to `A.Reference=='J1' && B.Reference=='J1'`, board-wide hole clearance stays 0.2 mm.
 4. `91ecfe2` **Production/ regenerated** — everything from one board revision, using the board's saved plot params (identical 19-file gerber recipe + zip). New: `bom.csv` (replaces stale Jun-15 `bom.xlsx`; R5 LCSC consolidated to C413111 = R6/R7's SKU, same 10K 0402) and `HD3SS3220-breakout-cpl.csv` (pick-and-place, previously missing). Fresh IPC-D-356 `netlist.ipc`.
+
+5. `e077eae` **R5 footprint field sync** — the SKU consolidation initially edited only the schematic; the footprint's cached LCSC field tripped the parity field check at the branch tip. Now synced; final gate fully clean (fab outputs unaffected — non-Reference/Value fields are not plotted).
 
 ## Verification (artifacts in `repair-verify/`)
 
@@ -32,4 +37,4 @@ Context: `DESIGN_REVIEW-r5-council.md` (incl. the b84c83a addendum).
 
 ## How to take this
 
-Diff is reviewable per commit: `git log -p b84c83a..vincent-repair`. If upstream wants it: cherry-pick or merge locally and push from an authorized account — this branch was deliberately not pushed anywhere.
+Diff is reviewable per commit: `git log -p b84c83a..DO-NOT-USE-vincent-repair-unreviewed`. If upstream wants it: cherry-pick or merge locally and push from an authorized account — this branch was deliberately not pushed anywhere.
