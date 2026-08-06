@@ -167,7 +167,7 @@
 		(at 111.7055 84.263927)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
-		(property "Reference" "GND"
+		(property "Reference" "TP5"
 			(at 0 2.3 180)
 			(layer "F.SilkS")
 			(uuid "c6bf5858-e869-43d5-90ad-e4c1ff2575fd")
@@ -2215,7 +2215,7 @@
 		(at 115.7055 62.263927)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
-		(property "Reference" "CC2"
+		(property "Reference" "TP6"
 			(at 0 2.3 0)
 			(layer "F.SilkS")
 			(uuid "dd49b9d0-ffcd-4885-9328-78a1445cf436")
@@ -2386,7 +2386,7 @@
 		(at 93.3055 60.163927)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
-		(property "Reference" "V_OUT"
+		(property "Reference" "TP3"
 			(at 4.1 0 0)
 			(layer "F.SilkS")
 			(uuid "39066606-8a99-40ca-afa2-2f6013a5dff9")
@@ -2557,7 +2557,7 @@
 		(at 115.3055 84.263927)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
-		(property "Reference" "GND"
+		(property "Reference" "TP4"
 			(at 0.1 2.3 180)
 			(layer "F.SilkS")
 			(uuid "1ae7c8b4-c53d-4d71-a7e1-ecaa4d605179")
@@ -2727,7 +2727,7 @@
 		(at 92.7055 63.963927 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
-		(property "Reference" "DIR"
+		(property "Reference" "DIR_LED2"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "d655b897-fb92-4b08-a7bc-ff670eebc575")
@@ -2987,7 +2987,7 @@
 		(at 111.7055 80.263927)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
-		(property "Reference" "VCONN"
+		(property "Reference" "TP2"
 			(at -0.3 -2.1 180)
 			(layer "F.SilkS")
 			(uuid "764bd69c-0228-4b5d-8573-def87d079b17")
@@ -4551,7 +4551,7 @@
 		(at 112.0055 62.263927)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
-		(property "Reference" "CC1"
+		(property "Reference" "TP7"
 			(at 0 2.3 0)
 			(layer "F.SilkS")
 			(uuid "280335d7-9f75-4079-97ce-8a28b413bbf2")
@@ -6303,7 +6303,7 @@
 		(at 92.7055 67.038927 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
-		(property "Reference" "VBUS"
+		(property "Reference" "VBUS_LED2"
 			(at 0 -1.5 270)
 			(layer "F.SilkS")
 			(uuid "f7d25af9-5ff3-4e4c-94fa-ae9bd986cf32")
@@ -8915,7 +8915,7 @@
 		(at 115.4055 80.263927)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
-		(property "Reference" "VBUS"
+		(property "Reference" "TP1"
 			(at 0 -2.1 0)
 			(layer "F.SilkS")
 			(uuid "2ede53b8-0590-4aca-a2c8-8295fb9a3b1c")
