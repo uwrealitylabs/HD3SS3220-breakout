@@ -7,3 +7,11 @@
    (constraint annular_width (min 0mm))
    (condition "A.Reference == 'J1'")
 )
+
+# J1's land pattern places the connector's plated shell-peg holes 0.144 mm from
+# its own GND shield pads (manufacturer geometry, both part of the grounded
+# shell - a drill nick cannot create a fault). Scoped to J1-internal pairs only;
+# board-wide hole clearance stays 0.2 mm.
+(rule "J1 internal shell-peg hole clearance"
+  (constraint hole_clearance (min 0.13mm))
+  (condition "A.Reference == 'J1' && B.Reference == 'J1'"))
